@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name gh60_hole)(type KiCad)(uri ${KIPRJMOD}/Lib/gh60/lib/hole.pretty)(options "")(descr ""))
+)
