@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name usb_c_plug_usb2.0_mod)(type Legacy)(uri ${KIPRJMOD}/Lib/usb_c_plug_usb2.0_mod.lib)(options "")(descr ""))
+)
