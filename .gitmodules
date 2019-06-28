@@ -1,0 +1,3 @@
+[submodule "Lib/gh60"]
+	path = Lib/gh60
+	url = git@github.com:mitaroThanken/gh60.git
