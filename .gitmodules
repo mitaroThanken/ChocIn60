@@ -1,3 +1,6 @@
 [submodule "Lib/gh60"]
 	path = Lib/gh60
 	url = git@github.com:mitaroThanken/gh60.git
+[submodule "Lib/Keebio-Parts.pretty"]
+	path = Lib/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty
