@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name gh60_hole)(type KiCad)(uri ${KIPRJMOD}/Lib/gh60/lib/hole.pretty)(options "")(descr ""))
   (lib (name Akizuki)(type KiCad)(uri ${KIPRJMOD}/Lib/Akizuki.pretty)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/Lib/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name Keebio-Parts_mod)(type KiCad)(uri ${KIPRJMOD}/Lib/Keebio-Parts_mod.pretty)(options "")(descr ""))
 )
