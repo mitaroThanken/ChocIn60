@@ -6,7 +6,7 @@
     (tracks 0)
     (zones 0)
     (modules 9)
-    (nets 1)
+    (nets 2)
   )
 
   (page A3)
@@ -91,6 +91,7 @@
   )
 
   (net 0 "")
+  (net 1 GND)
 
   (net_class Default "これはデフォルトのネット クラスです。"
     (clearance 0.2)
@@ -99,19 +100,21 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net GND)
   )
 
   (module gh60_hole:PKRH (layer F.Cu) (tedit 56D0D44A) (tstamp 5D158932)
     (at 299.88 135.225072)
-    (path /5C610563)
+    (path /5D166471)
     (attr virtual)
     (fp_text reference S9 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Tofu screw" (at 0 -0.5) (layer F.Fab)
+    (fp_text value Screw_Tofu (at 0 -0.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask)
+      (net 1 GND))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -121,15 +124,16 @@
 
   (module gh60_hole:PKRH (layer F.Cu) (tedit 56D0D44A) (tstamp 5D15892E)
     (at 66.075 135.225072)
-    (path /5C5EA78C)
+    (path /5D165F20)
     (attr virtual)
     (fp_text reference S8 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Tofu screw" (at 0 -0.5) (layer F.Fab)
+    (fp_text value Screw_Tofu (at 0 -0.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask)
+      (net 1 GND))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -139,15 +143,16 @@
 
   (module gh60_hole:PKRH (layer F.Cu) (tedit 56D0D44A) (tstamp 5D158926)
     (at 229.95016 135.025)
-    (path /5C3372C8)
+    (path /5D1652AD)
     (attr virtual)
     (fp_text reference S6 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Screw (at 0 -0.5) (layer F.Fab)
+    (fp_text value Screw_Tofu (at 0 -0.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask)
+      (net 1 GND))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -157,7 +162,7 @@
 
   (module gh60_hole:PKRH (layer F.Cu) (tedit 56D0D44A) (tstamp 5D158922)
     (at 168.037608 96.92504)
-    (path /5C2CD859)
+    (path /5D1641A2)
     (attr virtual)
     (fp_text reference S3 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -165,7 +170,8 @@
     (fp_text value Screw (at 0 -0.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask)
+      (net 1 GND))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -175,7 +181,7 @@
 
   (module gh60_hole:PKRH (layer F.Cu) (tedit 56D0D44A) (tstamp 5D158909)
     (at 299.875 77.72705)
-    (path /5C2AA553)
+    (path /5D1638F5)
     (attr virtual)
     (fp_text reference S2 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -183,7 +189,8 @@
     (fp_text value Screw (at 0 -0.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask)
+      (net 1 GND))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -193,15 +200,16 @@
 
   (module gh60_hole:PKRH (layer F.Cu) (tedit 56D0D44A) (tstamp 5D1588F0)
     (at 182.325 87.25)
-    (path /5C59E1CB)
+    (path /5D16562D)
     (attr virtual)
     (fp_text reference S7 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Tofu screw" (at 0 -0.5) (layer F.Fab)
+    (fp_text value Screw_Tofu (at 0 -0.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask)
+      (net 1 GND))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -211,7 +219,7 @@
 
   (module gh60_hole:PKRH (layer F.Cu) (tedit 56D0D44A) (tstamp 5D1588EC)
     (at 64.453146 78.400048)
-    (path /5C2A7B35)
+    (path /5D162014)
     (attr virtual)
     (fp_text reference S1 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -219,7 +227,8 @@
     (fp_text value Screw (at 0 -0.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask)
+      (net 1 GND))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -229,7 +238,7 @@
 
   (module gh60_hole:PKRHSL (layer F.Cu) (tedit 56D0D47B) (tstamp 5D15892A)
     (at 322.818988 106.625)
-    (path /5C313929)
+    (path /5D164B59)
     (attr virtual)
     (fp_text reference S5 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -237,7 +246,8 @@
     (fp_text value Screw (at 0 -0.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole oval (at 0 0) (size 9.99998 5.00126) (drill oval 7.00024 2.49936) (layers *.Cu *.Mask))
+    (pad 1 thru_hole oval (at 0 0) (size 9.99998 5.00126) (drill oval 7.00024 2.49936) (layers *.Cu *.Mask)
+      (net 1 GND))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -247,7 +257,7 @@
 
   (module gh60_hole:PKRHSL (layer F.Cu) (tedit 56D0D47B) (tstamp 5D158905)
     (at 41.831252 106.625)
-    (path /5C2F0889)
+    (path /5D164775)
     (attr virtual)
     (fp_text reference S4 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -255,7 +265,8 @@
     (fp_text value Screw (at 0 -0.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole oval (at 0 0) (size 9.99998 5.00126) (drill oval 7.00024 2.49936) (layers *.Cu *.Mask))
+    (pad 1 thru_hole oval (at 0 0) (size 9.99998 5.00126) (drill oval 7.00024 2.49936) (layers *.Cu *.Mask)
+      (net 1 GND))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
