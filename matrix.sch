@@ -590,38 +590,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 2500 7500 2875
 $Comp
-L Switch:SW_Push SW35
-U 1 1 5D259882
-P 7700 3625
-F 0 "SW35" H 7700 3910 50  0000 C CNN
-F 1 "SW_Push" H 7700 3819 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 7700 3825 50  0001 C CNN
-F 3 "~" H 7700 3825 50  0001 C CNN
-	1    7700 3625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D35
-U 1 1 5D259888
-P 7850 3875
-F 0 "D35" H 7850 3659 50  0000 C CNN
-F 1 "D" H 7850 3750 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7850 3875 50  0001 C CNN
-F 3 "~" H 7850 3875 50  0001 C CNN
-	1    7850 3875
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7900 3625 7925 3625
-Wire Wire Line
-	7925 3625 7925 3750
-Wire Wire Line
-	7925 3750 7700 3750
-Wire Wire Line
-	7700 3750 7700 3875
-Wire Wire Line
-	7500 3250 7500 3625
-$Comp
 L Switch:SW_Push SW45
 U 1 1 5D259893
 P 7700 4375
@@ -717,38 +685,6 @@ Wire Wire Line
 	8450 3000 8450 3125
 Wire Wire Line
 	8250 2500 8250 2875
-$Comp
-L Switch:SW_Push SW36
-U 1 1 5D26CF6C
-P 8450 3625
-F 0 "SW36" H 8450 3910 50  0000 C CNN
-F 1 "SW_Push" H 8450 3819 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 8450 3825 50  0001 C CNN
-F 3 "~" H 8450 3825 50  0001 C CNN
-	1    8450 3625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D36
-U 1 1 5D26CF72
-P 8600 3875
-F 0 "D36" H 8600 3659 50  0000 C CNN
-F 1 "D" H 8600 3750 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 8600 3875 50  0001 C CNN
-F 3 "~" H 8600 3875 50  0001 C CNN
-	1    8600 3875
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8650 3625 8675 3625
-Wire Wire Line
-	8675 3625 8675 3750
-Wire Wire Line
-	8675 3750 8450 3750
-Wire Wire Line
-	8450 3750 8450 3875
-Wire Wire Line
-	8250 3250 8250 3625
 $Comp
 L Switch:SW_Push SW46
 U 1 1 5D26CF7D
@@ -1421,198 +1357,6 @@ Wire Wire Line
 	10700 6000 10700 6125
 Wire Wire Line
 	10500 5500 10500 5875
-$Comp
-L Switch:SW_Push SW10
-U 1 1 5D2F3036
-P 11450 2125
-F 0 "SW10" H 11450 2410 50  0000 C CNN
-F 1 "SW_Push" H 11450 2319 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 2325 50  0001 C CNN
-F 3 "~" H 11450 2325 50  0001 C CNN
-	1    11450 2125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D10
-U 1 1 5D2F303C
-P 11600 2375
-F 0 "D10" H 11600 2159 50  0000 C CNN
-F 1 "D" H 11600 2250 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 11600 2375 50  0001 C CNN
-F 3 "~" H 11600 2375 50  0001 C CNN
-	1    11600 2375
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11650 2125 11675 2125
-Wire Wire Line
-	11675 2125 11675 2250
-Wire Wire Line
-	11675 2250 11450 2250
-Wire Wire Line
-	11450 2250 11450 2375
-Wire Wire Line
-	11250 1750 11250 2125
-$Comp
-L Switch:SW_Push SW20
-U 1 1 5D2F3047
-P 11450 2875
-F 0 "SW20" H 11450 3160 50  0000 C CNN
-F 1 "SW_Push" H 11450 3069 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 3075 50  0001 C CNN
-F 3 "~" H 11450 3075 50  0001 C CNN
-	1    11450 2875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D20
-U 1 1 5D2F304D
-P 11600 3125
-F 0 "D20" H 11600 2909 50  0000 C CNN
-F 1 "D" H 11600 3000 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 11600 3125 50  0001 C CNN
-F 3 "~" H 11600 3125 50  0001 C CNN
-	1    11600 3125
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11650 2875 11675 2875
-Wire Wire Line
-	11675 2875 11675 3000
-Wire Wire Line
-	11675 3000 11450 3000
-Wire Wire Line
-	11450 3000 11450 3125
-Wire Wire Line
-	11250 2500 11250 2875
-$Comp
-L Switch:SW_Push SW30
-U 1 1 5D2F3058
-P 11450 3625
-F 0 "SW30" H 11450 3910 50  0000 C CNN
-F 1 "SW_Push" H 11450 3819 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 3825 50  0001 C CNN
-F 3 "~" H 11450 3825 50  0001 C CNN
-	1    11450 3625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D30
-U 1 1 5D2F305E
-P 11600 3875
-F 0 "D30" H 11600 3659 50  0000 C CNN
-F 1 "D" H 11600 3750 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 11600 3875 50  0001 C CNN
-F 3 "~" H 11600 3875 50  0001 C CNN
-	1    11600 3875
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11650 3625 11675 3625
-Wire Wire Line
-	11675 3625 11675 3750
-Wire Wire Line
-	11675 3750 11450 3750
-Wire Wire Line
-	11450 3750 11450 3875
-Wire Wire Line
-	11250 3250 11250 3625
-$Comp
-L Switch:SW_Push SW40
-U 1 1 5D2F3069
-P 11450 4375
-F 0 "SW40" H 11450 4660 50  0000 C CNN
-F 1 "SW_Push" H 11450 4569 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 4575 50  0001 C CNN
-F 3 "~" H 11450 4575 50  0001 C CNN
-	1    11450 4375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D40
-U 1 1 5D2F306F
-P 11600 4625
-F 0 "D40" H 11600 4409 50  0000 C CNN
-F 1 "D" H 11600 4500 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 11600 4625 50  0001 C CNN
-F 3 "~" H 11600 4625 50  0001 C CNN
-	1    11600 4625
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11650 4375 11675 4375
-Wire Wire Line
-	11675 4375 11675 4500
-Wire Wire Line
-	11675 4500 11450 4500
-Wire Wire Line
-	11450 4500 11450 4625
-Wire Wire Line
-	11250 4000 11250 4375
-$Comp
-L Switch:SW_Push SW50
-U 1 1 5D2F307A
-P 11450 5125
-F 0 "SW50" H 11450 5410 50  0000 C CNN
-F 1 "SW_Push" H 11450 5319 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 5325 50  0001 C CNN
-F 3 "~" H 11450 5325 50  0001 C CNN
-	1    11450 5125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D50
-U 1 1 5D2F3080
-P 11600 5375
-F 0 "D50" H 11600 5159 50  0000 C CNN
-F 1 "D" H 11600 5250 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 11600 5375 50  0001 C CNN
-F 3 "~" H 11600 5375 50  0001 C CNN
-	1    11600 5375
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11650 5125 11675 5125
-Wire Wire Line
-	11675 5125 11675 5250
-Wire Wire Line
-	11675 5250 11450 5250
-Wire Wire Line
-	11450 5250 11450 5375
-Wire Wire Line
-	11250 4750 11250 5125
-$Comp
-L Switch:SW_Push SW60
-U 1 1 5D2F308B
-P 11450 5875
-F 0 "SW60" H 11450 6160 50  0000 C CNN
-F 1 "SW_Push" H 11450 6069 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 6075 50  0001 C CNN
-F 3 "~" H 11450 6075 50  0001 C CNN
-	1    11450 5875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D60
-U 1 1 5D2F3091
-P 11600 6125
-F 0 "D60" H 11600 5909 50  0000 C CNN
-F 1 "D" H 11600 6000 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 11600 6125 50  0001 C CNN
-F 3 "~" H 11600 6125 50  0001 C CNN
-	1    11600 6125
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11650 5875 11675 5875
-Wire Wire Line
-	11675 5875 11675 6000
-Wire Wire Line
-	11675 6000 11450 6000
-Wire Wire Line
-	11450 6000 11450 6125
-Wire Wire Line
-	11250 5500 11250 5875
 Text HLabel 4250 1750 0    51   3State ~ 0
 row1
 Text HLabel 4250 2500 0    51   3State ~ 0
@@ -1627,15 +1371,9 @@ Wire Wire Line
 Connection ~ 9750 5500
 Wire Wire Line
 	9750 5500 10500 5500
-Connection ~ 10500 5500
-Wire Wire Line
-	10500 5500 11250 5500
 Connection ~ 9750 4750
 Wire Wire Line
 	9750 4750 10500 4750
-Connection ~ 10500 4750
-Wire Wire Line
-	10500 4750 11250 4750
 Wire Wire Line
 	4250 4000 4500 4000
 Connection ~ 4500 4000
@@ -1662,9 +1400,6 @@ Wire Wire Line
 Connection ~ 9750 4000
 Wire Wire Line
 	9750 4000 10500 4000
-Connection ~ 10500 4000
-Wire Wire Line
-	10500 4000 11250 4000
 Wire Wire Line
 	4250 3250 4500 3250
 Connection ~ 4500 3250
@@ -1677,23 +1412,12 @@ Connection ~ 6000 3250
 Wire Wire Line
 	6000 3250 6750 3250
 Connection ~ 6750 3250
-Wire Wire Line
-	6750 3250 7500 3250
-Connection ~ 7500 3250
-Wire Wire Line
-	7500 3250 8250 3250
-Connection ~ 8250 3250
-Wire Wire Line
-	8250 3250 9000 3250
 Connection ~ 9000 3250
 Wire Wire Line
 	9000 3250 9750 3250
 Connection ~ 9750 3250
 Wire Wire Line
 	9750 3250 10500 3250
-Connection ~ 10500 3250
-Wire Wire Line
-	10500 3250 11250 3250
 Wire Wire Line
 	4250 2500 4500 2500
 Connection ~ 4500 2500
@@ -1720,9 +1444,6 @@ Wire Wire Line
 Connection ~ 9750 2500
 Wire Wire Line
 	9750 2500 10500 2500
-Connection ~ 10500 2500
-Wire Wire Line
-	10500 2500 11250 2500
 Wire Wire Line
 	4250 1750 4500 1750
 Connection ~ 4500 1750
@@ -1749,26 +1470,12 @@ Wire Wire Line
 Connection ~ 9750 1750
 Wire Wire Line
 	9750 1750 10500 1750
-Connection ~ 10500 1750
-Wire Wire Line
-	10500 1750 11250 1750
 Text HLabel 7250 1500 1    50   3State ~ 0
 col4
 Text HLabel 8000 1500 1    50   3State ~ 0
 col5
 Text HLabel 8750 1500 1    50   3State ~ 0
 col6
-Connection ~ 11750 2375
-Wire Wire Line
-	11750 2375 11750 3125
-Connection ~ 11750 3125
-Wire Wire Line
-	11750 3125 11750 3875
-Connection ~ 11750 3875
-Wire Wire Line
-	11750 3875 11750 4625
-Wire Wire Line
-	11750 5375 11750 6125
 Wire Wire Line
 	11000 1500 11000 2375
 Connection ~ 11000 2375
@@ -1810,11 +1517,6 @@ Connection ~ 8750 2375
 Wire Wire Line
 	8750 2375 8750 3125
 Connection ~ 8750 3125
-Wire Wire Line
-	8750 3125 8750 3875
-Connection ~ 8750 3875
-Wire Wire Line
-	8750 3875 8750 4625
 Connection ~ 8750 4625
 Wire Wire Line
 	8750 4625 8750 5375
@@ -1827,11 +1529,6 @@ Connection ~ 8000 2375
 Wire Wire Line
 	8000 2375 8000 3125
 Connection ~ 8000 3125
-Wire Wire Line
-	8000 3125 8000 3875
-Connection ~ 8000 3875
-Wire Wire Line
-	8000 3875 8000 4625
 Wire Wire Line
 	7250 1500 7250 2375
 Connection ~ 7250 2375
@@ -1865,72 +1562,6 @@ Wire Wire Line
 Connection ~ 5000 3125
 Wire Wire Line
 	5000 3125 5000 3875
-$Comp
-L Switch:SW_Push SW5
-U 1 1 5D2598C6
-P 2700 5625
-F 0 "SW5" H 2700 5910 50  0000 C CNN
-F 1 "SW_Push" H 2700 5819 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 2700 5825 50  0001 C CNN
-F 3 "~" H 2700 5825 50  0001 C CNN
-	1    2700 5625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D5
-U 1 1 5D2598CC
-P 2850 5875
-F 0 "D5" H 2850 5659 50  0000 C CNN
-F 1 "D" H 2850 5750 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2850 5875 50  0001 C CNN
-F 3 "~" H 2850 5875 50  0001 C CNN
-	1    2850 5875
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2900 5625 2925 5625
-Wire Wire Line
-	2925 5625 2925 5750
-Wire Wire Line
-	2925 5750 2700 5750
-Wire Wire Line
-	2700 5750 2700 5875
-Wire Wire Line
-	2500 5250 2500 5625
-$Comp
-L Switch:SW_Push SW95
-U 1 1 5D2598D7
-P 2700 6375
-F 0 "SW95" H 2700 6660 50  0000 C CNN
-F 1 "SW_Push" H 2700 6569 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 2700 6575 50  0001 C CNN
-F 3 "~" H 2700 6575 50  0001 C CNN
-	1    2700 6375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D95
-U 1 1 5D2598DD
-P 2850 6625
-F 0 "D95" H 2850 6409 50  0000 C CNN
-F 1 "D" H 2850 6500 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2850 6625 50  0001 C CNN
-F 3 "~" H 2850 6625 50  0001 C CNN
-	1    2850 6625
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2900 6375 2925 6375
-Wire Wire Line
-	2925 6375 2925 6500
-Wire Wire Line
-	2925 6500 2700 6500
-Wire Wire Line
-	2700 6500 2700 6625
-Wire Wire Line
-	2500 6000 2500 6375
-Wire Wire Line
-	3000 5875 3000 6625
 $Comp
 L Switch:SW_Push SW4
 U 1 1 5D26CFB0
@@ -1996,13 +1627,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 6000 3250 6375
 Wire Wire Line
-	2500 6000 3250 6000
-Wire Wire Line
-	2500 5250 3250 5250
-Wire Wire Line
 	3750 5875 3750 6625
-Connection ~ 2500 5250
-Connection ~ 2500 6000
 $Comp
 L Switch:SW_Push SW73
 U 1 1 5D1795E8
@@ -2131,134 +1756,6 @@ Wire Wire Line
 	1950 4500 1950 4625
 Wire Wire Line
 	1750 4000 1750 4375
-$Comp
-L Switch:SW_Push SW72
-U 1 1 5D22B376
-P 2700 2125
-F 0 "SW72" H 2700 2410 50  0000 C CNN
-F 1 "SW_Push" H 2700 2319 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 2700 2325 50  0001 C CNN
-F 3 "~" H 2700 2325 50  0001 C CNN
-	1    2700 2125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D72
-U 1 1 5D22B37C
-P 2850 2375
-F 0 "D72" H 2850 2159 50  0000 C CNN
-F 1 "D" H 2850 2250 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2850 2375 50  0001 C CNN
-F 3 "~" H 2850 2375 50  0001 C CNN
-	1    2850 2375
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2900 2125 2925 2125
-Wire Wire Line
-	2925 2125 2925 2250
-Wire Wire Line
-	2925 2250 2700 2250
-Wire Wire Line
-	2700 2250 2700 2375
-Wire Wire Line
-	2500 1750 2500 2125
-$Comp
-L Switch:SW_Push SW82
-U 1 1 5D22B387
-P 2700 2875
-F 0 "SW82" H 2700 3160 50  0000 C CNN
-F 1 "SW_Push" H 2700 3069 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 2700 3075 50  0001 C CNN
-F 3 "~" H 2700 3075 50  0001 C CNN
-	1    2700 2875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D82
-U 1 1 5D22B38D
-P 2850 3125
-F 0 "D82" H 2850 2909 50  0000 C CNN
-F 1 "D" H 2850 3000 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2850 3125 50  0001 C CNN
-F 3 "~" H 2850 3125 50  0001 C CNN
-	1    2850 3125
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2900 2875 2925 2875
-Wire Wire Line
-	2925 2875 2925 3000
-Wire Wire Line
-	2925 3000 2700 3000
-Wire Wire Line
-	2700 3000 2700 3125
-Wire Wire Line
-	2500 2500 2500 2875
-$Comp
-L Switch:SW_Push SW92
-U 1 1 5D22B398
-P 2700 3625
-F 0 "SW92" H 2700 3910 50  0000 C CNN
-F 1 "SW_Push" H 2700 3819 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 2700 3825 50  0001 C CNN
-F 3 "~" H 2700 3825 50  0001 C CNN
-	1    2700 3625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D92
-U 1 1 5D22B39E
-P 2850 3875
-F 0 "D92" H 2850 3659 50  0000 C CNN
-F 1 "D" H 2850 3750 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2850 3875 50  0001 C CNN
-F 3 "~" H 2850 3875 50  0001 C CNN
-	1    2850 3875
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2900 3625 2925 3625
-Wire Wire Line
-	2925 3625 2925 3750
-Wire Wire Line
-	2925 3750 2700 3750
-Wire Wire Line
-	2700 3750 2700 3875
-Wire Wire Line
-	2500 3250 2500 3625
-$Comp
-L Switch:SW_Push SW2
-U 1 1 5D22B3A9
-P 2700 4375
-F 0 "SW2" H 2700 4660 50  0000 C CNN
-F 1 "SW_Push" H 2700 4569 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 2700 4575 50  0001 C CNN
-F 3 "~" H 2700 4575 50  0001 C CNN
-	1    2700 4375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 5D22B3AF
-P 2850 4625
-F 0 "D2" H 2850 4409 50  0000 C CNN
-F 1 "D" H 2850 4500 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2850 4625 50  0001 C CNN
-F 3 "~" H 2850 4625 50  0001 C CNN
-	1    2850 4625
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2900 4375 2925 4375
-Wire Wire Line
-	2925 4375 2925 4500
-Wire Wire Line
-	2925 4500 2700 4500
-Wire Wire Line
-	2700 4500 2700 4625
-Wire Wire Line
-	2500 4000 2500 4375
 $Comp
 L Switch:SW_Push SW71
 U 1 1 5D236CA2
@@ -2455,27 +1952,9 @@ Text HLabel 4000 2000 2    51   3State ~ 0
 row7
 Text HLabel 4000 2750 2    51   3State ~ 0
 row8
-Wire Wire Line
-	1750 4000 2500 4000
-Connection ~ 2500 4000
-Wire Wire Line
-	2500 4000 3250 4000
 Connection ~ 1750 3250
-Wire Wire Line
-	1750 3250 2500 3250
-Connection ~ 2500 3250
-Wire Wire Line
-	2500 3250 3250 3250
 Connection ~ 1750 2500
-Wire Wire Line
-	1750 2500 2500 2500
-Connection ~ 2500 2500
-Wire Wire Line
-	2500 2500 3250 2500
 Connection ~ 1750 1750
-Wire Wire Line
-	1750 1750 2500 1750
-Connection ~ 2500 1750
 Wire Wire Line
 	2250 5875 2250 6625
 Connection ~ 3750 2375
@@ -2490,18 +1969,6 @@ Wire Wire Line
 Connection ~ 3750 4625
 Wire Wire Line
 	3750 4625 3750 4750
-Connection ~ 3000 2375
-Wire Wire Line
-	3000 2375 3000 3125
-Connection ~ 3000 3125
-Wire Wire Line
-	3000 3125 3000 3875
-Connection ~ 3000 3875
-Wire Wire Line
-	3000 3875 3000 4625
-Connection ~ 3000 4625
-Wire Wire Line
-	3000 4625 3000 4750
 Connection ~ 2250 2375
 Wire Wire Line
 	2250 2375 2250 3125
@@ -2522,8 +1989,6 @@ col2
 Text HLabel 2250 4750 3    50   3State ~ 0
 col3
 Wire Wire Line
-	1750 6000 2500 6000
-Wire Wire Line
 	5000 1500 3750 1500
 Wire Wire Line
 	3750 1500 3750 2375
@@ -2532,15 +1997,11 @@ Wire Wire Line
 Wire Wire Line
 	5750 1375 5750 2375
 Wire Wire Line
-	3000 1375 3000 2375
-Wire Wire Line
 	6500 1250 2250 1250
 Wire Wire Line
 	6500 1250 6500 2375
 Wire Wire Line
 	2250 1250 2250 2375
-Wire Wire Line
-	11750 1625 11750 2375
 Wire Wire Line
 	11000 1500 13500 1500
 Wire Wire Line
@@ -2549,8 +2010,6 @@ Wire Wire Line
 	10250 1375 10250 2375
 Wire Wire Line
 	9500 1250 9500 2375
-Wire Wire Line
-	1750 5250 2500 5250
 Connection ~ 7250 4625
 Connection ~ 8000 4625
 Wire Wire Line
@@ -2936,8 +2395,6 @@ Wire Wire Line
 	3875 1750 3875 2000
 Wire Wire Line
 	3875 2000 4000 2000
-Wire Wire Line
-	2500 1750 3250 1750
 Connection ~ 3250 1750
 Wire Wire Line
 	3250 1750 3875 1750
@@ -2994,17 +2451,11 @@ Wire Wire Line
 Connection ~ 11000 4625
 Connection ~ 11000 5375
 Wire Wire Line
-	11750 4625 11750 5375
-Connection ~ 11750 4625
-Connection ~ 11750 5375
-Wire Wire Line
 	15250 2500 15250 1000
 Wire Wire Line
 	14250 1375 14250 2375
 Wire Wire Line
 	13500 1500 13500 2375
-Wire Wire Line
-	12750 1625 11750 1625
 Wire Wire Line
 	13000 6000 13750 6000
 Wire Wire Line
@@ -3080,12 +2531,6 @@ F 3 "~" H 13200 5825 50  0001 C CNN
 $EndComp
 Connection ~ 13750 6000
 Connection ~ 13750 5250
-Text HLabel 12125 4000 3    51   3State ~ 0
-row10
-Text HLabel 12125 3250 3    51   3State ~ 0
-row9
-Text HLabel 12750 4750 0    50   3State ~ 0
-col10
 Text HLabel 13500 4750 0    50   3State ~ 0
 col9
 Text HLabel 14250 4750 0    50   3State ~ 0
@@ -3095,20 +2540,6 @@ col7
 Connection ~ 15000 6625
 Wire Wire Line
 	15000 5875 15000 6625
-Wire Wire Line
-	12750 4625 12750 4750
-Connection ~ 12750 4625
-Wire Wire Line
-	12750 3875 12750 4625
-Connection ~ 12750 3875
-Wire Wire Line
-	12750 3125 12750 3875
-Connection ~ 12750 3125
-Wire Wire Line
-	12750 2375 12750 3125
-Connection ~ 12750 2375
-Wire Wire Line
-	12750 1625 12750 2375
 Wire Wire Line
 	13500 4625 13500 4750
 Connection ~ 13500 4625
@@ -3153,9 +2584,6 @@ Wire Wire Line
 Connection ~ 13750 1750
 Wire Wire Line
 	13000 1750 13750 1750
-Connection ~ 13000 1750
-Wire Wire Line
-	12250 1750 13000 1750
 Wire Wire Line
 	14500 2500 15250 2500
 Connection ~ 14500 2500
@@ -3164,18 +2592,12 @@ Wire Wire Line
 Connection ~ 13750 2500
 Wire Wire Line
 	13000 2500 13750 2500
-Connection ~ 13000 2500
-Wire Wire Line
-	12250 2500 13000 2500
 Connection ~ 14500 3250
 Wire Wire Line
 	13750 3250 14500 3250
 Connection ~ 13750 3250
 Wire Wire Line
 	13000 3250 13750 3250
-Connection ~ 13000 3250
-Wire Wire Line
-	12250 3250 13000 3250
 Wire Wire Line
 	13750 5250 14500 5250
 Connection ~ 14500 4000
@@ -3184,9 +2606,6 @@ Wire Wire Line
 Connection ~ 13750 4000
 Wire Wire Line
 	13000 4000 13750 4000
-Connection ~ 13000 4000
-Wire Wire Line
-	12250 4000 13000 4000
 Wire Wire Line
 	13750 6000 14500 6000
 Wire Wire Line
@@ -3574,134 +2993,6 @@ F 3 "~" H 13200 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12250 4000 12250 4375
-Wire Wire Line
-	12450 4500 12450 4625
-Wire Wire Line
-	12675 4500 12450 4500
-Wire Wire Line
-	12675 4375 12675 4500
-Wire Wire Line
-	12650 4375 12675 4375
-$Comp
-L Device:D D0
-U 1 1 5D2847BF
-P 12600 4625
-F 0 "D0" H 12600 4409 50  0000 C CNN
-F 1 "D" H 12600 4500 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 12600 4625 50  0001 C CNN
-F 3 "~" H 12600 4625 50  0001 C CNN
-	1    12600 4625
-	-1   0    0    1   
-$EndComp
-$Comp
-L Switch:SW_Push SW0
-U 1 1 5D2847B9
-P 12450 4375
-F 0 "SW0" H 12450 4660 50  0000 C CNN
-F 1 "SW_Push" H 12450 4569 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 12450 4575 50  0001 C CNN
-F 3 "~" H 12450 4575 50  0001 C CNN
-	1    12450 4375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12250 3250 12250 3625
-Wire Wire Line
-	12450 3750 12450 3875
-Wire Wire Line
-	12675 3750 12450 3750
-Wire Wire Line
-	12675 3625 12675 3750
-Wire Wire Line
-	12650 3625 12675 3625
-$Comp
-L Device:D D90
-U 1 1 5D2847AE
-P 12600 3875
-F 0 "D90" H 12600 3659 50  0000 C CNN
-F 1 "D" H 12600 3750 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 12600 3875 50  0001 C CNN
-F 3 "~" H 12600 3875 50  0001 C CNN
-	1    12600 3875
-	-1   0    0    1   
-$EndComp
-$Comp
-L Switch:SW_Push SW90
-U 1 1 5D2847A8
-P 12450 3625
-F 0 "SW90" H 12450 3910 50  0000 C CNN
-F 1 "SW_Push" H 12450 3819 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 12450 3825 50  0001 C CNN
-F 3 "~" H 12450 3825 50  0001 C CNN
-	1    12450 3625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12250 2500 12250 2875
-Wire Wire Line
-	12450 3000 12450 3125
-Wire Wire Line
-	12675 3000 12450 3000
-Wire Wire Line
-	12675 2875 12675 3000
-Wire Wire Line
-	12650 2875 12675 2875
-$Comp
-L Device:D D80
-U 1 1 5D28479D
-P 12600 3125
-F 0 "D80" H 12600 2909 50  0000 C CNN
-F 1 "D" H 12600 3000 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 12600 3125 50  0001 C CNN
-F 3 "~" H 12600 3125 50  0001 C CNN
-	1    12600 3125
-	-1   0    0    1   
-$EndComp
-$Comp
-L Switch:SW_Push SW80
-U 1 1 5D284797
-P 12450 2875
-F 0 "SW80" H 12450 3160 50  0000 C CNN
-F 1 "SW_Push" H 12450 3069 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 12450 3075 50  0001 C CNN
-F 3 "~" H 12450 3075 50  0001 C CNN
-	1    12450 2875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12250 1750 12250 2125
-Wire Wire Line
-	12450 2250 12450 2375
-Wire Wire Line
-	12675 2250 12450 2250
-Wire Wire Line
-	12675 2125 12675 2250
-Wire Wire Line
-	12650 2125 12675 2125
-$Comp
-L Device:D D70
-U 1 1 5D28478C
-P 12600 2375
-F 0 "D70" H 12600 2159 50  0000 C CNN
-F 1 "D" H 12600 2250 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 12600 2375 50  0001 C CNN
-F 3 "~" H 12600 2375 50  0001 C CNN
-	1    12600 2375
-	-1   0    0    1   
-$EndComp
-$Comp
-L Switch:SW_Push SW70
-U 1 1 5D284786
-P 12450 2125
-F 0 "SW70" H 12450 2410 50  0000 C CNN
-F 1 "SW_Push" H 12450 2319 50  0000 C CNN
-F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 12450 2325 50  0001 C CNN
-F 3 "~" H 12450 2325 50  0001 C CNN
-	1    12450 2125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	14700 6500 14700 6625
 Wire Wire Line
 	14925 6500 14700 6500
@@ -3761,7 +3052,6 @@ F 3 "~" H 14700 5825 50  0001 C CNN
 	1    14700 5625
 	1    0    0    -1  
 $EndComp
-Connection ~ 14250 6625
 Wire Wire Line
 	14250 5875 14250 6625
 Wire Wire Line
@@ -3837,27 +3127,8 @@ Wire Wire Line
 Wire Wire Line
 	15000 1250 9500 1250
 Wire Wire Line
-	12250 1750 11875 1750
-Connection ~ 12250 1750
-Wire Wire Line
-	11875 6000 13000 6000
-Wire Wire Line
-	11875 1750 11875 6000
-Connection ~ 13000 6000
-Wire Wire Line
-	12250 2500 12000 2500
-Wire Wire Line
-	12000 2500 12000 5250
-Wire Wire Line
 	12000 5250 13000 5250
-Connection ~ 12250 2500
 Connection ~ 13000 5250
-Wire Wire Line
-	12125 3250 12250 3250
-Connection ~ 12250 3250
-Wire Wire Line
-	12125 4000 12250 4000
-Connection ~ 12250 4000
 Wire Wire Line
 	15375 3250 15375 875 
 Wire Wire Line
@@ -3904,16 +3175,12 @@ Wire Wire Line
 	15000 4875 12500 4875
 Wire Wire Line
 	12500 4875 12500 6250
-Wire Wire Line
-	12500 6250 8750 6250
 Connection ~ 15000 5875
 Wire Wire Line
 	8750 6125 8750 6250
 Connection ~ 8750 6125
 Wire Wire Line
 	8000 6125 8000 6375
-Wire Wire Line
-	8000 6375 12625 6375
 Wire Wire Line
 	12625 6375 12625 5000
 Wire Wire Line
@@ -3925,8 +3192,6 @@ Connection ~ 14250 5875
 Wire Wire Line
 	7250 6125 7250 6500
 Wire Wire Line
-	7250 6500 12750 6500
-Wire Wire Line
 	12750 6500 12750 5125
 Wire Wire Line
 	12750 5125 13500 5125
@@ -3936,21 +3201,294 @@ Connection ~ 7250 6125
 Connection ~ 13500 5875
 Wire Wire Line
 	3750 6750 3750 6625
-Wire Wire Line
-	3750 6750 13500 6750
 Connection ~ 3750 6625
-Wire Wire Line
-	14250 6875 3000 6875
-Wire Wire Line
-	3000 6875 3000 6625
-Wire Wire Line
-	14250 6625 14250 6875
-Connection ~ 3000 6625
 Wire Wire Line
 	2250 6625 2250 7000
 Wire Wire Line
-	2250 7000 15000 7000
-Wire Wire Line
 	15000 6625 15000 7000
 Connection ~ 2250 6625
+Wire Wire Line
+	2250 7000 15000 7000
+Wire Wire Line
+	3750 6750 13500 6750
+Wire Wire Line
+	7250 6500 12750 6500
+Wire Wire Line
+	8000 6375 12625 6375
+Wire Wire Line
+	12500 6250 8750 6250
+Wire Wire Line
+	11875 1750 11875 6000
+Connection ~ 13000 6000
+Connection ~ 10500 1750
+Wire Wire Line
+	10500 1750 11250 1750
+Connection ~ 10500 2500
+Wire Wire Line
+	10500 2500 11250 2500
+Connection ~ 10500 3250
+Wire Wire Line
+	10500 3250 11250 3250
+Connection ~ 10500 4000
+Wire Wire Line
+	10500 4000 11250 4000
+Connection ~ 10500 4750
+Wire Wire Line
+	10500 4750 11250 4750
+Connection ~ 10500 5500
+Wire Wire Line
+	10500 5500 11250 5500
+Wire Wire Line
+	11250 5500 11250 5875
+Wire Wire Line
+	11450 6000 11450 6125
+Wire Wire Line
+	11675 6000 11450 6000
+Wire Wire Line
+	11675 5875 11675 6000
+Wire Wire Line
+	11650 5875 11675 5875
+$Comp
+L Device:D D60
+U 1 1 5D2F3091
+P 11600 6125
+F 0 "D60" H 11600 5909 50  0000 C CNN
+F 1 "D" H 11600 6000 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11600 6125 50  0001 C CNN
+F 3 "~" H 11600 6125 50  0001 C CNN
+	1    11600 6125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW60
+U 1 1 5D2F308B
+P 11450 5875
+F 0 "SW60" H 11450 6160 50  0000 C CNN
+F 1 "SW_Push" H 11450 6069 50  0000 C CNN
+F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 6075 50  0001 C CNN
+F 3 "~" H 11450 6075 50  0001 C CNN
+	1    11450 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 4750 11250 5125
+Wire Wire Line
+	11450 5250 11450 5375
+Wire Wire Line
+	11675 5250 11450 5250
+Wire Wire Line
+	11675 5125 11675 5250
+Wire Wire Line
+	11650 5125 11675 5125
+Wire Wire Line
+	11750 5375 11750 6125
+Connection ~ 11750 5375
+$Comp
+L Device:D D50
+U 1 1 5D2F3080
+P 11600 5375
+F 0 "D50" H 11600 5159 50  0000 C CNN
+F 1 "D" H 11600 5250 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11600 5375 50  0001 C CNN
+F 3 "~" H 11600 5375 50  0001 C CNN
+	1    11600 5375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW50
+U 1 1 5D2F307A
+P 11450 5125
+F 0 "SW50" H 11450 5410 50  0000 C CNN
+F 1 "SW_Push" H 11450 5319 50  0000 C CNN
+F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 5325 50  0001 C CNN
+F 3 "~" H 11450 5325 50  0001 C CNN
+	1    11450 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 4000 11250 4375
+Wire Wire Line
+	11450 4500 11450 4625
+Wire Wire Line
+	11675 4500 11450 4500
+Wire Wire Line
+	11675 4375 11675 4500
+Wire Wire Line
+	11650 4375 11675 4375
+Wire Wire Line
+	11750 4625 11750 5375
+Connection ~ 11750 4625
+$Comp
+L Device:D D40
+U 1 1 5D2F306F
+P 11600 4625
+F 0 "D40" H 11600 4409 50  0000 C CNN
+F 1 "D" H 11600 4500 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11600 4625 50  0001 C CNN
+F 3 "~" H 11600 4625 50  0001 C CNN
+	1    11600 4625
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 5D2F3069
+P 11450 4375
+F 0 "SW40" H 11450 4660 50  0000 C CNN
+F 1 "SW_Push" H 11450 4569 50  0000 C CNN
+F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 4575 50  0001 C CNN
+F 3 "~" H 11450 4575 50  0001 C CNN
+	1    11450 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 3250 11250 3625
+Wire Wire Line
+	11450 3750 11450 3875
+Wire Wire Line
+	11675 3750 11450 3750
+Wire Wire Line
+	11675 3625 11675 3750
+Wire Wire Line
+	11650 3625 11675 3625
+Wire Wire Line
+	11750 3875 11750 4625
+Connection ~ 11750 3875
+$Comp
+L Device:D D30
+U 1 1 5D2F305E
+P 11600 3875
+F 0 "D30" H 11600 3659 50  0000 C CNN
+F 1 "D" H 11600 3750 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11600 3875 50  0001 C CNN
+F 3 "~" H 11600 3875 50  0001 C CNN
+	1    11600 3875
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5D2F3058
+P 11450 3625
+F 0 "SW30" H 11450 3910 50  0000 C CNN
+F 1 "SW_Push" H 11450 3819 50  0000 C CNN
+F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 3825 50  0001 C CNN
+F 3 "~" H 11450 3825 50  0001 C CNN
+	1    11450 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 2500 11250 2875
+Wire Wire Line
+	11450 3000 11450 3125
+Wire Wire Line
+	11675 3000 11450 3000
+Wire Wire Line
+	11675 2875 11675 3000
+Wire Wire Line
+	11650 2875 11675 2875
+Wire Wire Line
+	11750 3125 11750 3875
+Connection ~ 11750 3125
+$Comp
+L Device:D D20
+U 1 1 5D2F304D
+P 11600 3125
+F 0 "D20" H 11600 2909 50  0000 C CNN
+F 1 "D" H 11600 3000 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11600 3125 50  0001 C CNN
+F 3 "~" H 11600 3125 50  0001 C CNN
+	1    11600 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5D2F3047
+P 11450 2875
+F 0 "SW20" H 11450 3160 50  0000 C CNN
+F 1 "SW_Push" H 11450 3069 50  0000 C CNN
+F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 3075 50  0001 C CNN
+F 3 "~" H 11450 3075 50  0001 C CNN
+	1    11450 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 1750 11250 2125
+Wire Wire Line
+	11450 2250 11450 2375
+Wire Wire Line
+	11675 2250 11450 2250
+Wire Wire Line
+	11675 2125 11675 2250
+Wire Wire Line
+	11650 2125 11675 2125
+Wire Wire Line
+	11750 2375 11750 3125
+Connection ~ 11750 2375
+$Comp
+L Device:D D10
+U 1 1 5D2F303C
+P 11600 2375
+F 0 "D10" H 11600 2159 50  0000 C CNN
+F 1 "D" H 11600 2250 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11600 2375 50  0001 C CNN
+F 3 "~" H 11600 2375 50  0001 C CNN
+	1    11600 2375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5D2F3036
+P 11450 2125
+F 0 "SW10" H 11450 2410 50  0000 C CNN
+F 1 "SW_Push" H 11450 2319 50  0000 C CNN
+F 2 "Keebio-Parts_mod:Kailh-PG1350-1u-no-LED" H 11450 2325 50  0001 C CNN
+F 3 "~" H 11450 2325 50  0001 C CNN
+	1    11450 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 2500 12000 5250
+Text HLabel 12000 1650 2    50   3State ~ 0
+col10
+Wire Wire Line
+	12000 1650 11750 1650
+Wire Wire Line
+	11750 1650 11750 2375
+Wire Wire Line
+	13000 1750 11875 1750
+Connection ~ 13000 1750
+Wire Wire Line
+	11875 6000 13000 6000
+Wire Wire Line
+	12000 2500 13000 2500
+Connection ~ 13000 2500
+Text HLabel 12800 3250 0    50   3State ~ 0
+row9
+Text HLabel 12800 4000 0    50   3State ~ 0
+row10
+Wire Wire Line
+	12800 3250 13000 3250
+Connection ~ 13000 3250
+Wire Wire Line
+	12800 4000 13000 4000
+Connection ~ 13000 4000
+Wire Wire Line
+	1750 6000 3250 6000
+Wire Wire Line
+	1750 5250 3250 5250
+Wire Wire Line
+	1750 3250 3250 3250
+Wire Wire Line
+	1750 2500 3250 2500
+Wire Wire Line
+	3000 1375 3000 4750
+Wire Wire Line
+	1750 1750 3250 1750
+Wire Wire Line
+	1750 4000 3250 4000
+Wire Wire Line
+	8000 3125 8000 4625
+Wire Wire Line
+	8750 3125 8750 4625
+Wire Wire Line
+	6750 3250 9000 3250
 $EndSCHEMATC
