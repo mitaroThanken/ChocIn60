@@ -328,6 +328,15 @@
     (add_net "Net-(J1-Pad4)")
     (add_net "Net-(J1-Pad6)")
     (add_net "Net-(SW_R0-Pad2)")
+  )
+
+  (net_class VCC ""
+    (clearance 0.2)
+    (trace_width 0.5)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
     (add_net VCC)
   )
 
