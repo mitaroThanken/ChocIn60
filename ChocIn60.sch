@@ -934,17 +934,6 @@ F 3 "~" H 4750 6900 50  0001 C CNN
 	1    4750 6900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C7
-U 1 1 5D3550DD
-P 5125 6900
-F 0 "C7" H 5240 6946 50  0000 L CNN
-F 1 "100n" H 5240 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5163 6750 50  0001 C CNN
-F 3 "~" H 5125 6900 50  0001 C CNN
-	1    5125 6900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 6750 4000 6625
 Wire Wire Line
@@ -1011,8 +1000,6 @@ F 3 "" H 4750 7400 50  0001 C CNN
 	1    4750 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4750 7200 4750 7400
 $Comp
 L power:VCC #PWR08
 U 1 1 5D50C7DE
@@ -1211,17 +1198,34 @@ Wire Wire Line
 Wire Wire Line
 	9300 2050 9350 2050
 Wire Wire Line
-	4100 2600 5900 2600
-Wire Bus Line
-	3625 1000 3625 1625
-Wire Bus Line
-	4750 4800 4750 5750
-Wire Bus Line
-	5250 1000 5250 2750
+	4750 7400 4750 7175
 Wire Bus Line
 	8750 1250 8750 5750
 Wire Bus Line
-	6000 1500 6000 4700
+	3625 1000 3625 1625
+Wire Wire Line
+	4100 2600 5900 2600
+Wire Bus Line
+	5250 1000 5250 2750
 Wire Bus Line
 	6750 1500 6750 5000
+Wire Bus Line
+	6000 1500 6000 4700
+Wire Bus Line
+	4750 4800 4750 5750
+$Comp
+L Device:C C7
+U 1 1 5D3550DD
+P 5125 6900
+F 0 "C7" H 5240 6946 50  0000 L CNN
+F 1 "100n" H 5240 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5163 6750 50  0001 C CNN
+F 3 "~" H 5125 6900 50  0001 C CNN
+	1    5125 6900
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	7600 -875 7700 -775
+Entry Wire Line
+	7600 -875 7700 -775
 $EndSCHEMATC
