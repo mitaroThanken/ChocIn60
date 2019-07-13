@@ -722,9 +722,9 @@ F 3 "" H 8800 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8800 3550 8800 3650
-Text GLabel 10250 1850 2    50   Input ~ 0
-D+
 Text GLabel 10250 2050 2    50   Input ~ 0
+D+
+Text GLabel 10250 1850 2    50   Input ~ 0
 D-
 Wire Wire Line
 	10050 2050 10250 2050
