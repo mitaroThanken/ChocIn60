@@ -250,7 +250,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1450 2600 1450
 Text GLabel 2750 1250 2    50   Input ~ 0
-RESET
+~RESET
 Wire Wire Line
 	2750 1250 2600 1250
 Wire Wire Line
@@ -823,4 +823,67 @@ Wire Notes Line
 	3250 5500 750  5500
 Text Notes 825  5625 0    50   ~ 0
 Holes
+$Comp
+L Connector:AVR-ISP-6 J?
+U 1 1 5D36CB73
+P 4500 6475
+F 0 "J?" H 4221 6571 50  0000 R CNN
+F 1 "AVR-ISP-6" H 4221 6480 50  0000 R CNN
+F 2 "" V 4250 6525 50  0001 C CNN
+F 3 " ~" H 3225 5925 50  0001 C CNN
+	1    4500 6475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D36F8AE
+P 4400 5825
+F 0 "#PWR?" H 4400 5675 50  0001 C CNN
+F 1 "+5V" H 4415 5998 50  0000 C CNN
+F 2 "" H 4400 5825 50  0001 C CNN
+F 3 "" H 4400 5825 50  0001 C CNN
+	1    4400 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5825 4400 5975
+$Comp
+L power:GND #PWR?
+U 1 1 5D371D8F
+P 4400 6975
+F 0 "#PWR?" H 4400 6725 50  0001 C CNN
+F 1 "GND" H 4405 6802 50  0000 C CNN
+F 2 "" H 4400 6975 50  0001 C CNN
+F 3 "" H 4400 6975 50  0001 C CNN
+	1    4400 6975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6875 4400 6975
+Text GLabel 4900 6275 2    50   Input ~ 0
+MISO
+Text GLabel 4900 6375 2    50   Input ~ 0
+MOSI
+Text GLabel 4900 6475 2    50   Input ~ 0
+SCK
+Text GLabel 5250 6575 2    50   Input ~ 0
+~RESET
+Wire Wire Line
+	4900 6575 5250 6575
+Wire Notes Line
+	3500 5500 3500 7250
+Wire Notes Line
+	5750 7250 5750 5500
+Wire Notes Line
+	3500 7250 5750 7250
+Wire Notes Line
+	3500 5500 5750 5500
+Text Notes 3550 5625 0    50   ~ 0
+ISP Header
+Text GLabel 4350 1550 2    50   Input ~ 0
+SCK
+Text GLabel 4350 1650 2    50   Input ~ 0
+MOSI
+Text GLabel 4350 1750 2    50   Input ~ 0
+MISO
 $EndSCHEMATC
