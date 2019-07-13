@@ -886,4 +886,48 @@ Text GLabel 4350 1650 2    50   Input ~ 0
 MOSI
 Text GLabel 4350 1750 2    50   Input ~ 0
 MISO
+Text GLabel 4350 1450 2    50   Input ~ 0
+PB0
+Text GLabel 4350 1850 2    50   Input ~ 0
+PB4
+Text GLabel 4350 1950 2    50   Input ~ 0
+PB5
+Text GLabel 4350 2050 2    50   Input ~ 0
+PB6
+Text GLabel 4350 2150 2    50   Input ~ 0
+PB7
+Text GLabel 4350 2350 2    50   Input ~ 0
+PC6
+Text GLabel 4350 2450 2    50   Input ~ 0
+PC7
+Text GLabel 4350 2650 2    50   Input ~ 0
+PD0
+Text GLabel 4350 2750 2    50   Input ~ 0
+PD1
+Text GLabel 4350 2850 2    50   Input ~ 0
+PD2
+Text GLabel 4350 2950 2    50   Input ~ 0
+PD3
+Text GLabel 4350 3050 2    50   Input ~ 0
+PD4
+Text GLabel 4350 3150 2    50   Input ~ 0
+PD5
+Text GLabel 4350 3250 2    50   Input ~ 0
+PD6
+Text GLabel 4350 3350 2    50   Input ~ 0
+PD7
+Text GLabel 4350 3650 2    50   Input ~ 0
+PE6
+Text GLabel 4350 3850 2    50   Input ~ 0
+PF0
+Text GLabel 4350 3950 2    50   Input ~ 0
+PF1
+Text GLabel 4350 4050 2    50   Input ~ 0
+PF4
+Text GLabel 4350 4150 2    50   Input ~ 0
+PF5
+Text GLabel 4350 4250 2    50   Input ~ 0
+PF6
+Text GLabel 4350 4350 2    50   Input ~ 0
+PF7
 $EndSCHEMATC
