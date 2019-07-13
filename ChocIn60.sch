@@ -490,31 +490,27 @@ Wire Wire Line
 $Comp
 L Device:R R5
 U 1 1 5D2CD886
-P 5350 3550
-F 0 "R5" V 5143 3550 50  0000 C CNN
-F 1 "10k" V 5234 3550 50  0000 C CNN
-F 2 "" V 5280 3550 50  0001 C CNN
-F 3 "~" H 5350 3550 50  0001 C CNN
-	1    5350 3550
-	0    1    1    0   
+P 4975 3700
+F 0 "R5" V 4768 3700 50  0000 C CNN
+F 1 "10k" V 4859 3700 50  0000 C CNN
+F 2 "" V 4905 3700 50  0001 C CNN
+F 3 "~" H 4975 3700 50  0001 C CNN
+	1    4975 3700
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4350 3550 5200 3550
+	4350 3550 4975 3550
 $Comp
 L power:GND #PWR014
 U 1 1 5D2CF6E1
-P 5625 3650
-F 0 "#PWR014" H 5625 3400 50  0001 C CNN
-F 1 "GND" H 5630 3477 50  0000 C CNN
-F 2 "" H 5625 3650 50  0001 C CNN
-F 3 "" H 5625 3650 50  0001 C CNN
-	1    5625 3650
+P 4975 3850
+F 0 "#PWR014" H 4975 3600 50  0001 C CNN
+F 1 "GND" H 4980 3677 50  0000 C CNN
+F 2 "" H 4975 3850 50  0001 C CNN
+F 3 "" H 4975 3850 50  0001 C CNN
+	1    4975 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5500 3550 5625 3550
-Wire Wire Line
-	5625 3550 5625 3650
 $Comp
 L power:VBUS #PWR01
 U 1 1 5D2D0C3E
@@ -861,11 +857,11 @@ $EndComp
 Wire Wire Line
 	4400 6875 4400 6975
 Text GLabel 4900 6275 2    50   Input ~ 0
-MISO
+PB3_MISO
 Text GLabel 4900 6375 2    50   Input ~ 0
-MOSI
+PB2_MOSI
 Text GLabel 4900 6475 2    50   Input ~ 0
-SCK
+PB1_SCK
 Text GLabel 5250 6575 2    50   Input ~ 0
 ~RESET
 Wire Wire Line
@@ -881,11 +877,9 @@ Wire Notes Line
 Text Notes 3550 5625 0    50   ~ 0
 ISP Header
 Text GLabel 4350 1550 2    50   Input ~ 0
-SCK
+PB1_SCK
 Text GLabel 4350 1650 2    50   Input ~ 0
-MOSI
-Text GLabel 4350 1750 2    50   Input ~ 0
-MISO
+PB2_MOSI
 Text GLabel 4350 1450 2    50   Input ~ 0
 PB0
 Text GLabel 4350 1850 2    50   Input ~ 0
@@ -900,10 +894,6 @@ Text GLabel 4350 2350 2    50   Input ~ 0
 PC6
 Text GLabel 4350 2450 2    50   Input ~ 0
 PC7
-Text GLabel 4350 2650 2    50   Input ~ 0
-PD0
-Text GLabel 4350 2750 2    50   Input ~ 0
-PD1
 Text GLabel 4350 2850 2    50   Input ~ 0
 PD2
 Text GLabel 4350 2950 2    50   Input ~ 0
@@ -916,8 +906,6 @@ Text GLabel 4350 3250 2    50   Input ~ 0
 PD6
 Text GLabel 4350 3350 2    50   Input ~ 0
 PD7
-Text GLabel 4350 3650 2    50   Input ~ 0
-PE6
 Text GLabel 4350 3850 2    50   Input ~ 0
 PF0
 Text GLabel 4350 3950 2    50   Input ~ 0
@@ -1018,4 +1006,212 @@ F 3 "~" H 2125 7500 50  0001 C CNN
 	1    2125 7500
 	-1   0    0    1   
 $EndComp
+Text GLabel 4350 3650 2    50   Input ~ 0
+PE6
+Text GLabel 4350 2750 2    50   Input ~ 0
+PD1_SDA
+Text GLabel 4350 2650 2    50   Input ~ 0
+PD0_SCL
+Text GLabel 4350 1750 2    50   Input ~ 0
+PB3_MISO
+$Comp
+L Connector_Generic:Conn_02x15_Counter_Clockwise J3
+U 1 1 5D423129
+P 8550 5125
+F 0 "J3" H 8600 6042 50  0000 C CNN
+F 1 "Conn_02x15_Counter_Clockwise" H 8600 5951 50  0000 C CNN
+F 2 "" H 8550 5125 50  0001 C CNN
+F 3 "~" H 8550 5125 50  0001 C CNN
+	1    8550 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR019
+U 1 1 5D42A215
+P 6875 4400
+F 0 "#PWR019" H 6875 4250 50  0001 C CNN
+F 1 "+5V" H 6890 4573 50  0000 C CNN
+F 2 "" H 6875 4400 50  0001 C CNN
+F 3 "" H 6875 4400 50  0001 C CNN
+	1    6875 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5D42D4CA
+P 9500 5875
+F 0 "#PWR020" H 9500 5625 50  0001 C CNN
+F 1 "GND" H 9505 5702 50  0000 C CNN
+F 2 "" H 9500 5875 50  0001 C CNN
+F 3 "" H 9500 5875 50  0001 C CNN
+	1    9500 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5825 9500 5825
+Wire Wire Line
+	9500 5825 9500 5875
+Text GLabel 8350 4625 0    50   Input ~ 0
+PB0
+Text GLabel 8350 4725 0    50   Input ~ 0
+PB1_SCK
+Text GLabel 8350 4925 0    50   Input ~ 0
+PB3_MISO
+Text GLabel 8350 5025 0    50   Input ~ 0
+PB4
+Text GLabel 8350 5125 0    50   Input ~ 0
+PB5
+Text GLabel 8350 5325 0    50   Input ~ 0
+PB7
+Text GLabel 6875 5725 0    50   Input ~ 0
+PD0_SCL
+Text GLabel 8850 5725 2    50   Input ~ 0
+PF7
+Text GLabel 8850 5625 2    50   Input ~ 0
+PF6
+Text GLabel 8850 5525 2    50   Input ~ 0
+PF5
+Text GLabel 8850 5425 2    50   Input ~ 0
+PF4
+Text GLabel 8850 5325 2    50   Input ~ 0
+PF1
+Text GLabel 8850 5225 2    50   Input ~ 0
+PF0
+Text GLabel 8850 5125 2    50   Input ~ 0
+PE6
+Text GLabel 8850 5025 2    50   Input ~ 0
+PD7
+Text GLabel 8850 4925 2    50   Input ~ 0
+PD6
+Text GLabel 8850 4825 2    50   Input ~ 0
+PD5
+Text GLabel 8850 4725 2    50   Input ~ 0
+PD4
+Text GLabel 8850 4625 2    50   Input ~ 0
+PD3
+Text GLabel 8850 4525 2    50   Input ~ 0
+PD2
+Wire Wire Line
+	6875 4425 6875 4400
+$Comp
+L Device:R R7
+U 1 1 5D435CC8
+P 7375 5475
+F 0 "R7" H 7445 5521 50  0000 L CNN
+F 1 "4.7k" H 7445 5430 50  0000 L CNN
+F 2 "" V 7305 5475 50  0001 C CNN
+F 3 "~" H 7375 5475 50  0001 C CNN
+	1    7375 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D435D2E
+P 7000 5475
+F 0 "R6" H 7070 5521 50  0000 L CNN
+F 1 "4.7k" H 7070 5430 50  0000 L CNN
+F 2 "" V 6930 5475 50  0001 C CNN
+F 3 "~" H 7000 5475 50  0001 C CNN
+	1    7000 5475
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 4825 0    50   Input ~ 0
+PB2_MOSI
+Wire Wire Line
+	7000 5625 7000 5725
+Wire Wire Line
+	7000 5325 7000 4425
+Wire Wire Line
+	7375 5325 7375 4425
+NoConn ~ 8850 4425
+NoConn ~ 8350 4525
+Text GLabel 8350 5425 0    50   Input ~ 0
+PC6
+Text GLabel 8350 5525 0    50   Input ~ 0
+PC7
+Wire Wire Line
+	6875 4425 7000 4425
+Text GLabel 8350 5225 0    50   Input ~ 0
+PB6
+NoConn ~ 8350 5625
+Connection ~ 7375 4425
+Wire Wire Line
+	6875 5725 7000 5725
+Text GLabel 6875 5825 0    50   Input ~ 0
+PD1_SDA
+Wire Wire Line
+	6875 5825 7375 5825
+Wire Wire Line
+	7375 5725 8350 5725
+Connection ~ 7000 4425
+Wire Wire Line
+	7000 4425 7375 4425
+Connection ~ 7000 5725
+Wire Wire Line
+	7000 5725 7375 5725
+Connection ~ 7375 5825
+Wire Wire Line
+	7375 4425 7850 4425
+Wire Wire Line
+	7375 5625 7375 5725
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5D4A2D9A
+P 8550 6050
+F 0 "J4" H 8630 6042 50  0000 L CNN
+F 1 "Conn_01x04" H 8630 5951 50  0000 L CNN
+F 2 "" H 8550 6050 50  0001 C CNN
+F 3 "~" H 8550 6050 50  0001 C CNN
+	1    8550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5D4A955E
+P 8250 6250
+F 0 "#PWR021" H 8250 6000 50  0001 C CNN
+F 1 "GND" H 8255 6077 50  0000 C CNN
+F 2 "" H 8250 6250 50  0001 C CNN
+F 3 "" H 8250 6250 50  0001 C CNN
+	1    8250 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 6250 8350 6250
+Wire Wire Line
+	7375 5825 7625 5825
+Wire Wire Line
+	8350 6150 7625 6150
+Wire Wire Line
+	7625 6150 7625 5825
+Connection ~ 7625 5825
+Wire Wire Line
+	7625 5825 7750 5825
+Wire Wire Line
+	8350 6050 7750 6050
+Wire Wire Line
+	7750 6050 7750 5825
+Connection ~ 7750 5825
+Wire Wire Line
+	7750 5825 8350 5825
+Wire Wire Line
+	8350 5950 7850 5950
+Wire Wire Line
+	7850 5950 7850 4425
+Connection ~ 7850 4425
+Wire Wire Line
+	7850 4425 8350 4425
+Connection ~ 7375 5725
+Wire Wire Line
+	7375 5725 7375 5825
+Wire Notes Line
+	6000 4125 11000 4125
+Wire Notes Line
+	11000 4125 11000 6500
+Wire Notes Line
+	11000 6500 6000 6500
+Wire Notes Line
+	6000 6500 6000 4125
+Text Notes 6075 4275 0    50   ~ 0
+Connectors
 $EndSCHEMATC
