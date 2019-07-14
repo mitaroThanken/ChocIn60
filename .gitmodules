@@ -1,3 +1,6 @@
 [submodule "Lib/gh60"]
 	path = Lib/gh60
 	url = git@github.com:mitaroThanken/gh60.git
+[submodule "Lib/Orbit"]
+	path = Lib/Orbit
+	url = https://github.com/ai03-2725/Orbit
