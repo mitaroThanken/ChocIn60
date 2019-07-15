@@ -639,17 +639,6 @@ PD0_SCL
 Text GLabel 4350 2350 2    50   Input ~ 0
 PB3_MISO
 $Comp
-L Connector_Generic:Conn_02x15_Counter_Clockwise J3
-U 1 1 5D423129
-P 8550 5125
-F 0 "J3" H 8600 6042 50  0000 C CNN
-F 1 "Conn_02x15_Counter_Clockwise" H 8600 5951 50  0000 C CNN
-F 2 "" H 8550 5125 50  0001 C CNN
-F 3 "~" H 8550 5125 50  0001 C CNN
-	1    8550 5125
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR019
 U 1 1 5D42A215
 P 6875 4400
@@ -660,182 +649,51 @@ F 3 "" H 6875 4400 50  0001 C CNN
 	1    6875 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR020
-U 1 1 5D42D4CA
-P 9000 5900
-F 0 "#PWR020" H 9000 5650 50  0001 C CNN
-F 1 "GND" H 9005 5727 50  0000 C CNN
-F 2 "" H 9000 5900 50  0001 C CNN
-F 3 "" H 9000 5900 50  0001 C CNN
-	1    9000 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 5825 9000 5825
-Wire Wire Line
-	9000 5825 9000 5900
-Text GLabel 8350 4625 0    50   Input ~ 0
-PB0
-Text GLabel 8350 4725 0    50   Input ~ 0
-PB1_SCK
-Text GLabel 8350 4925 0    50   Input ~ 0
-PB3_MISO
-Text GLabel 8350 5025 0    50   Input ~ 0
-PB4
-Text GLabel 8350 5125 0    50   Input ~ 0
-PB5
-Text GLabel 8350 5325 0    50   Input ~ 0
-PB7
-Text GLabel 6875 5725 0    50   Input ~ 0
+Text GLabel 6875 4900 0    50   Input ~ 0
 PD0_SCL
-Text GLabel 8850 5725 2    50   Input ~ 0
-PF7
-Text GLabel 8850 5625 2    50   Input ~ 0
-PF6
-Text GLabel 8850 5525 2    50   Input ~ 0
-PF5
-Text GLabel 8850 5425 2    50   Input ~ 0
-PF4
-Text GLabel 8850 5325 2    50   Input ~ 0
-PF1
-Text GLabel 8850 5225 2    50   Input ~ 0
-PF0
-Text GLabel 8850 5125 2    50   Input ~ 0
-PE6
-Text GLabel 8850 5025 2    50   Input ~ 0
-PD7
-Text GLabel 8850 4925 2    50   Input ~ 0
-PD6
-Text GLabel 8850 4825 2    50   Input ~ 0
-PD5
-Text GLabel 8850 4725 2    50   Input ~ 0
-PD4
-Text GLabel 8850 4625 2    50   Input ~ 0
-PD3
-Text GLabel 8850 4525 2    50   Input ~ 0
-PD2
 Wire Wire Line
 	6875 4425 6875 4400
 $Comp
 L Device:R R7
 U 1 1 5D435CC8
-P 7375 5475
-F 0 "R7" H 7445 5521 50  0000 L CNN
-F 1 "4.7k" H 7445 5430 50  0000 L CNN
-F 2 "" V 7305 5475 50  0001 C CNN
-F 3 "~" H 7375 5475 50  0001 C CNN
-	1    7375 5475
+P 7375 4650
+F 0 "R7" H 7445 4696 50  0000 L CNN
+F 1 "4.7k" H 7445 4605 50  0000 L CNN
+F 2 "" V 7305 4650 50  0001 C CNN
+F 3 "~" H 7375 4650 50  0001 C CNN
+	1    7375 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 5D435D2E
-P 7000 5475
-F 0 "R6" H 7070 5521 50  0000 L CNN
-F 1 "4.7k" H 7070 5430 50  0000 L CNN
-F 2 "" V 6930 5475 50  0001 C CNN
-F 3 "~" H 7000 5475 50  0001 C CNN
-	1    7000 5475
+P 7000 4650
+F 0 "R6" H 7070 4696 50  0000 L CNN
+F 1 "4.7k" H 7070 4605 50  0000 L CNN
+F 2 "" V 6930 4650 50  0001 C CNN
+F 3 "~" H 7000 4650 50  0001 C CNN
+	1    7000 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 8350 4825 0    50   Input ~ 0
-PB2_MOSI
 Wire Wire Line
-	7000 5625 7000 5725
-Wire Wire Line
-	7000 5325 7000 4425
-Wire Wire Line
-	7375 5325 7375 4425
-NoConn ~ 8850 4425
-NoConn ~ 8350 4525
-Text GLabel 8350 5425 0    50   Input ~ 0
-PC6
-Text GLabel 8350 5525 0    50   Input ~ 0
-PC7
+	7000 4800 7000 4900
 Wire Wire Line
 	6875 4425 7000 4425
-Text GLabel 8350 5225 0    50   Input ~ 0
-PB6
-NoConn ~ 8350 5625
-Connection ~ 7375 4425
 Wire Wire Line
-	6875 5725 7000 5725
-Text GLabel 6875 5825 0    50   Input ~ 0
+	6875 4900 7000 4900
+Text GLabel 6875 5000 0    50   Input ~ 0
 PD1_SDA
 Wire Wire Line
-	6875 5825 7375 5825
-Wire Wire Line
-	7375 5725 8350 5725
+	6875 5000 7375 5000
 Connection ~ 7000 4425
 Wire Wire Line
 	7000 4425 7375 4425
-Connection ~ 7000 5725
 Wire Wire Line
-	7000 5725 7375 5725
-Connection ~ 7375 5825
-Wire Wire Line
-	7375 4425 7850 4425
-Wire Wire Line
-	7375 5625 7375 5725
-$Comp
-L Connector_Generic:Conn_01x04 J4
-U 1 1 5D4A2D9A
-P 8550 6050
-F 0 "J4" H 8630 6042 50  0000 L CNN
-F 1 "Conn_01x04" H 8630 5951 50  0000 L CNN
-F 2 "" H 8550 6050 50  0001 C CNN
-F 3 "~" H 8550 6050 50  0001 C CNN
-	1    8550 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 5D4A955E
-P 8250 6250
-F 0 "#PWR021" H 8250 6000 50  0001 C CNN
-F 1 "GND" H 8255 6077 50  0000 C CNN
-F 2 "" H 8250 6250 50  0001 C CNN
-F 3 "" H 8250 6250 50  0001 C CNN
-	1    8250 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 6250 8350 6250
-Wire Wire Line
-	7375 5825 7625 5825
-Wire Wire Line
-	8350 6150 7625 6150
-Wire Wire Line
-	7625 6150 7625 5825
-Connection ~ 7625 5825
-Wire Wire Line
-	7625 5825 7750 5825
-Wire Wire Line
-	8350 6050 7750 6050
-Wire Wire Line
-	7750 6050 7750 5825
-Connection ~ 7750 5825
-Wire Wire Line
-	7750 5825 8350 5825
-Wire Wire Line
-	8350 5950 7850 5950
-Wire Wire Line
-	7850 5950 7850 4425
-Connection ~ 7850 4425
-Wire Wire Line
-	7850 4425 8350 4425
-Connection ~ 7375 5725
-Wire Wire Line
-	7375 5725 7375 5825
+	7750 5100 7850 5100
 Wire Notes Line
 	6000 4125 9250 4125
 Wire Notes Line
-	9250 4125 9250 6500
-Wire Notes Line
-	9250 6500 6000 6500
-Wire Notes Line
-	6000 6500 6000 4125
+	9250 6250 6000 6250
 Text Notes 6075 4275 0    50   ~ 0
 Connectors
 Text GLabel 9750 4500 0    50   Input ~ 0
@@ -913,8 +771,6 @@ PF6
 Text GLabel 10750 5700 2    50   Input ~ 0
 PF7
 Wire Wire Line
-	10500 5800 10750 5800
-Wire Wire Line
 	10500 5700 10750 5700
 Wire Wire Line
 	10500 5600 10750 5600
@@ -964,39 +820,6 @@ F 3 "" H 10750 5800 50  0001 C CNN
 	1    10750 5800
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 10000 4250 500  2000
-U 5D2A6BAA
-F0 "matrix" 50
-F1 "ChocIn60_matrix.sch" 50
-F2 "+5V" T L 10000 4400 50 
-F3 "GND" T R 10500 5800 50 
-F4 "PB0" T L 10000 4500 50 
-F5 "PB1" T L 10000 4600 50 
-F6 "PB2" T L 10000 4700 50 
-F7 "PB3" T L 10000 4800 50 
-F8 "PB4" T L 10000 4900 50 
-F9 "PB6" T L 10000 5100 50 
-F10 "PB5" T L 10000 5000 50 
-F11 "PB7" T L 10000 5200 50 
-F12 "PC6" T L 10000 5300 50 
-F13 "PC7" T L 10000 5400 50 
-F14 "PD0" T L 10000 5600 50 
-F15 "PD1" T L 10000 5700 50 
-F16 "PD2" T R 10500 4500 50 
-F17 "PD3" T R 10500 4600 50 
-F18 "PD4" T R 10500 4700 50 
-F19 "PD5" T R 10500 4800 50 
-F20 "PD6" T R 10500 4900 50 
-F21 "PD7" T R 10500 5000 50 
-F22 "PE6" T R 10500 5100 50 
-F23 "PF0" T R 10500 5200 50 
-F24 "PF1" T R 10500 5300 50 
-F25 "PF4" T R 10500 5400 50 
-F26 "PF5" T R 10500 5500 50 
-F27 "PF6" T R 10500 5600 50 
-F28 "PF7" T R 10500 5700 50 
-$EndSheet
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 5D397DDF
@@ -1385,4 +1208,186 @@ Text Notes 4425 1300 0    50   ~ 0
 for 24
 Text Notes 5125 1300 0    50   ~ 0
 for 44
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5D4A2D9A
+P 8050 4900
+F 0 "J4" H 8130 4892 50  0000 L CNN
+F 1 "Conn_01x04" H 8130 4801 50  0000 L CNN
+F 2 "" H 8050 4900 50  0001 C CNN
+F 3 "~" H 8050 4900 50  0001 C CNN
+	1    8050 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4500 7000 4425
+Wire Wire Line
+	7375 4500 7375 4425
+Wire Wire Line
+	7375 4800 7375 5000
+Connection ~ 7000 4900
+Connection ~ 7375 5000
+Wire Wire Line
+	7375 4425 7750 4425
+Wire Wire Line
+	7750 4425 7750 4800
+Wire Wire Line
+	7750 4800 7850 4800
+Connection ~ 7375 4425
+Wire Wire Line
+	6875 4425 6175 4425
+Connection ~ 6875 4425
+Wire Wire Line
+	6175 4425 6175 5425
+Connection ~ 7575 5000
+Wire Wire Line
+	7575 5000 7850 5000
+Wire Wire Line
+	7375 5000 7575 5000
+Connection ~ 7475 4900
+Wire Wire Line
+	7475 4900 7850 4900
+Wire Wire Line
+	7000 4900 7475 4900
+Wire Wire Line
+	9075 5825 9075 5875
+Wire Wire Line
+	9175 5825 9075 5825
+$Comp
+L power:GND #PWR02
+U 1 1 5D476F15
+P 9075 5875
+F 0 "#PWR02" H 9075 5625 50  0001 C CNN
+F 1 "GND" H 9080 5702 50  0000 C CNN
+F 2 "" H 9075 5875 50  0001 C CNN
+F 3 "" H 9075 5875 50  0001 C CNN
+	1    9075 5875
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8975 5500
+$Comp
+L Connector_Generic:Conn_01x30 J3
+U 1 1 5D33BFC0
+P 7575 5700
+F 0 "J3" V 7700 5925 50  0000 C CNN
+F 1 "Conn_01x30" V 7700 5575 50  0000 C CNN
+F 2 "" H 7575 5700 50  0001 C CNN
+F 3 "~" H 7575 5700 50  0001 C CNN
+	1    7575 5700
+	0    -1   1    0   
+$EndComp
+Wire Notes Line
+	6000 6250 6000 4125
+Text GLabel 7075 5500 1    50   Input ~ 0
+PB6
+Text GLabel 7375 5500 1    50   Input ~ 0
+PC7
+Text GLabel 7275 5500 1    50   Input ~ 0
+PC6
+Text GLabel 6675 5500 1    50   Input ~ 0
+PB2_MOSI
+Text GLabel 7675 5500 1    50   Input ~ 0
+PD2
+Text GLabel 7775 5500 1    50   Input ~ 0
+PD3
+Text GLabel 7875 5500 1    50   Input ~ 0
+PD4
+Text GLabel 7975 5500 1    50   Input ~ 0
+PD5
+Text GLabel 8075 5500 1    50   Input ~ 0
+PD6
+Text GLabel 8175 5500 1    50   Input ~ 0
+PD7
+Text GLabel 8275 5500 1    50   Input ~ 0
+PE6
+Text GLabel 8375 5500 1    50   Input ~ 0
+PF0
+Text GLabel 8475 5500 1    50   Input ~ 0
+PF1
+Text GLabel 8575 5500 1    50   Input ~ 0
+PF4
+Text GLabel 8675 5500 1    50   Input ~ 0
+PF5
+Text GLabel 8775 5500 1    50   Input ~ 0
+PF6
+Text GLabel 8875 5500 1    50   Input ~ 0
+PF7
+Text GLabel 7175 5500 1    50   Input ~ 0
+PB7
+Text GLabel 6975 5500 1    50   Input ~ 0
+PB5
+Text GLabel 6875 5500 1    50   Input ~ 0
+PB4
+Text GLabel 6775 5500 1    50   Input ~ 0
+PB3_MISO
+Text GLabel 6575 5500 1    50   Input ~ 0
+PB1_SCK
+Text GLabel 6475 5500 1    50   Input ~ 0
+PB0
+Wire Wire Line
+	7750 5250 9175 5250
+Wire Wire Line
+	7750 5100 7750 5250
+Wire Wire Line
+	9075 5500 9075 5400
+Wire Wire Line
+	9075 5400 9175 5400
+Connection ~ 9175 5400
+Wire Wire Line
+	9175 5400 9175 5825
+Wire Wire Line
+	7475 5500 7475 4900
+Wire Wire Line
+	7575 5500 7575 5000
+Wire Wire Line
+	9175 5250 9175 5400
+Wire Wire Line
+	6175 5425 6275 5425
+Wire Wire Line
+	6375 5425 6375 5500
+Connection ~ 6175 5425
+Wire Wire Line
+	6175 5425 6175 5500
+Wire Wire Line
+	6275 5500 6275 5425
+Connection ~ 6275 5425
+Wire Wire Line
+	6275 5425 6375 5425
+Wire Notes Line
+	9250 4125 9250 6250
+$Sheet
+S 10000 4250 525  1750
+U 5D2A6BAA
+F0 "matrix" 50
+F1 "ChocIn60_matrix.sch" 50
+F2 "+5V" T L 10000 4400 50 
+F3 "GND" T R 10525 5800 50 
+F4 "PB0" T L 10000 4500 50 
+F5 "PB1" T L 10000 4600 50 
+F6 "PB2" T L 10000 4700 50 
+F7 "PB3" T L 10000 4800 50 
+F8 "PB4" T L 10000 4900 50 
+F9 "PB6" T L 10000 5100 50 
+F10 "PB5" T L 10000 5000 50 
+F11 "PB7" T L 10000 5200 50 
+F12 "PC6" T L 10000 5300 50 
+F13 "PC7" T L 10000 5400 50 
+F14 "PD0" T L 10000 5600 50 
+F15 "PD1" T L 10000 5700 50 
+F16 "PD2" T R 10525 4500 50 
+F17 "PD3" T R 10525 4600 50 
+F18 "PD4" T R 10525 4700 50 
+F19 "PD5" T R 10525 4800 50 
+F20 "PD6" T R 10525 4900 50 
+F21 "PD7" T R 10525 5000 50 
+F22 "PE6" T R 10525 5100 50 
+F23 "PF0" T R 10525 5200 50 
+F24 "PF1" T R 10525 5300 50 
+F25 "PF4" T R 10525 5400 50 
+F26 "PF5" T R 10525 5500 50 
+F27 "PF6" T R 10525 5600 50 
+F28 "PF7" T R 10525 5700 50 
+$EndSheet
+Wire Wire Line
+	10525 5800 10750 5800
 $EndSCHEMATC
