@@ -1159,17 +1159,6 @@ Wire Wire Line
 	7550 1400 6500 1400
 Connection ~ 6500 1400
 $Comp
-L Device:R R4
-U 1 1 5D33DA5F
-P 8850 3400
-F 0 "R4" H 8900 3450 50  0000 L CNN
-F 1 "5.1k" H 8900 3350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8780 3400 50  0001 C CNN
-F 3 "~" H 8850 3400 50  0001 C CNN
-	1    8850 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R3
 U 1 1 5D33BF2E
 P 8750 3400
@@ -1260,10 +1249,10 @@ U 1 1 5D3A3224
 P 7150 2750
 F 0 "D1" V 7425 3075 50  0000 L CNN
 F 1 "PRTR5V0U2X" V 7525 2875 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 7210 2750 50  0001 C CNN
+F 2 "Orbit_locallib:SOT143B" H 7210 2750 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 7210 2750 50  0001 C CNN
 	1    7150 2750
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	7150 2250 8250 2250
@@ -1378,7 +1367,7 @@ F 1 "SW_Push_Dual" H 1450 2044 50  0000 C CNN
 F 2 "Orbit_locallib:SKQGADE010" H 1450 2050 50  0001 C CNN
 F 3 "~" H 1450 2050 50  0001 C CNN
 	1    1450 1850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1250 1850 1250 2050
@@ -1394,4 +1383,15 @@ Text Label 8750 2575 1    50   ~ 0
 CC2
 Text Label 8850 2575 1    50   ~ 0
 CC1
+$Comp
+L Device:R R4
+U 1 1 5D33DA5F
+P 8850 3400
+F 0 "R4" H 8900 3350 50  0000 L CNN
+F 1 "5.1k" H 8900 3450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8780 3400 50  0001 C CNN
+F 3 "~" H 8850 3400 50  0001 C CNN
+	1    8850 3400
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
