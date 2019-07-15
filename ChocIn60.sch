@@ -1386,4 +1386,12 @@ Connection ~ 1250 2050
 Wire Wire Line
 	1650 1850 1650 2050
 Connection ~ 1650 2050
+Text Label 8250 2575 1    50   ~ 0
+D+
+Text Label 8450 2575 1    50   ~ 0
+D-
+Text Label 8750 2575 1    50   ~ 0
+CC2
+Text Label 8850 2575 1    50   ~ 0
+CC1
 $EndSCHEMATC
