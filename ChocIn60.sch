@@ -282,7 +282,7 @@ U 1 1 5D2F4A70
 P 7750 2625
 F 0 "D2" H 8294 2671 50  0000 L CNN
 F 1 "PRTR5V0U2X" H 8294 2580 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 7810 2625 50  0001 C CNN
+F 2 "Orbit_locallib:SOT143B" H 7810 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 7810 2625 50  0001 C CNN
 	1    7750 2625
 	1    0    0    -1  
@@ -1287,4 +1287,8 @@ Wire Wire Line
 Connection ~ 1650 2050
 Wire Wire Line
 	1675 2050 2600 2050
+Text Label 7050 1800 0    50   ~ 0
+DP
+Text Label 7050 1900 0    50   ~ 0
+DN
 $EndSCHEMATC
