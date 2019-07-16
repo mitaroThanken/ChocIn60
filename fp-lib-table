@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name gh60_hole)(type KiCad)(uri ${KIPRJMOD}/Lib/gh60/lib/hole.pretty)(options "")(descr ""))
+  (lib (name Orbit_locallib)(type KiCad)(uri ${KIPRJMOD}/Lib/Orbit/Orbit-PCB/locallib.pretty)(options "")(descr ""))
   (lib (name ChocIn60)(type KiCad)(uri ${KIPRJMOD}/Lib/ChocIn60.pretty)(options "")(descr ""))
 )
