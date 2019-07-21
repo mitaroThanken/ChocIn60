@@ -544,8 +544,6 @@ Wire Wire Line
 Connection ~ 7000 4425
 Wire Wire Line
 	7000 4425 7375 4425
-Wire Wire Line
-	7750 5100 7850 5100
 Wire Notes Line
 	6000 4125 9250 4125
 Wire Notes Line
@@ -1018,17 +1016,6 @@ Text Notes 2050 4600 0    50   ~ 0
 for 24
 Text Notes 2750 4600 0    50   ~ 0
 for 44
-$Comp
-L Connector_Generic:Conn_01x04 J4
-U 1 1 5D4A2D9A
-P 8050 4900
-F 0 "J4" H 8130 4892 50  0000 L CNN
-F 1 "Conn_01x04" H 8130 4801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8050 4900 50  0001 C CNN
-F 3 "~" H 8050 4900 50  0001 C CNN
-	1    8050 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 4500 7000 4425
 Wire Wire Line
@@ -1038,27 +1025,15 @@ Wire Wire Line
 Connection ~ 7000 4900
 Connection ~ 7375 5000
 Wire Wire Line
-	7375 4425 7750 4425
+	7375 4425 7875 4425
 Wire Wire Line
-	7750 4425 7750 4800
-Wire Wire Line
-	7750 4800 7850 4800
+	7875 4425 7875 4800
 Connection ~ 7375 4425
 Wire Wire Line
 	6875 4425 6175 4425
 Connection ~ 6875 4425
 Wire Wire Line
 	6175 4425 6175 5425
-Connection ~ 7575 5000
-Wire Wire Line
-	7575 5000 7850 5000
-Wire Wire Line
-	7375 5000 7575 5000
-Connection ~ 7475 4900
-Wire Wire Line
-	7475 4900 7850 4900
-Wire Wire Line
-	7000 4900 7475 4900
 Wire Wire Line
 	9075 5825 9075 5875
 Wire Wire Line
@@ -1076,45 +1051,43 @@ F 3 "" H 9075 5875 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	6000 6250 6000 4125
-Text GLabel 7075 5500 1    50   Input ~ 0
-PB6
-Text GLabel 7375 5500 1    50   Input ~ 0
-PC7
-Text GLabel 7275 5500 1    50   Input ~ 0
-PC6
-Text GLabel 6675 5500 1    50   Input ~ 0
-PB2_MOSI
-Text GLabel 7675 5500 1    50   Input ~ 0
-PD2
 Text GLabel 7775 5500 1    50   Input ~ 0
-PD3
+PB6
 Text GLabel 7875 5500 1    50   Input ~ 0
+PC7
+Text GLabel 6875 5500 1    50   Input ~ 0
+PB2_MOSI
+Text GLabel 8675 5500 1    50   Input ~ 0
+PD2
+Text GLabel 8575 5500 1    50   Input ~ 0
+PD3
+Text GLabel 8375 5500 1    50   Input ~ 0
 PD4
-Text GLabel 7975 5500 1    50   Input ~ 0
+Text GLabel 8475 5500 1    50   Input ~ 0
 PD5
-Text GLabel 8075 5500 1    50   Input ~ 0
+Text GLabel 8275 5500 1    50   Input ~ 0
 PD6
 Text GLabel 8175 5500 1    50   Input ~ 0
 PD7
-Text GLabel 8275 5500 1    50   Input ~ 0
+Text GLabel 6675 5500 1    50   Input ~ 0
 PE6
-Text GLabel 8375 5500 1    50   Input ~ 0
+Text GLabel 7075 5500 1    50   Input ~ 0
 PF0
-Text GLabel 8475 5500 1    50   Input ~ 0
-PF1
-Text GLabel 8575 5500 1    50   Input ~ 0
-PF4
-Text GLabel 8675 5500 1    50   Input ~ 0
-PF5
-Text GLabel 8775 5500 1    50   Input ~ 0
-PF6
-Text GLabel 8875 5500 1    50   Input ~ 0
-PF7
 Text GLabel 7175 5500 1    50   Input ~ 0
-PB7
+PF1
+Text GLabel 7275 5500 1    50   Input ~ 0
+PF4
+Text GLabel 7375 5500 1    50   Input ~ 0
+PF5
+Text GLabel 7475 5500 1    50   Input ~ 0
+PF6
+Text GLabel 7575 5500 1    50   Input ~ 0
+PF7
 Text GLabel 6975 5500 1    50   Input ~ 0
+PB7
+Text GLabel 7675 5500 1    50   Input ~ 0
 PB5
-Text GLabel 6875 5500 1    50   Input ~ 0
+Text GLabel 8075 5500 1    50   Input ~ 0
 PB4
 Text GLabel 6775 5500 1    50   Input ~ 0
 PB3_MISO
@@ -1123,13 +1096,9 @@ PB1_SCK
 Text GLabel 6475 5500 1    50   Input ~ 0
 PB0
 Wire Wire Line
-	7750 5250 9175 5250
+	8925 5250 9175 5250
 Wire Wire Line
-	7750 5100 7750 5250
-Wire Wire Line
-	7475 5500 7475 4900
-Wire Wire Line
-	7575 5500 7575 5000
+	8925 5100 8925 5250
 Wire Wire Line
 	6175 5425 6275 5425
 Wire Wire Line
@@ -1295,4 +1264,33 @@ F 3 "~" H 7575 5700 50  0001 C CNN
 	1    7575 5700
 	0    -1   1    0   
 $EndComp
+Text GLabel 7975 5500 1    50   Input ~ 0
+PC6
+Wire Wire Line
+	7875 4800 8925 4800
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5D4A2D9A
+P 9125 4900
+F 0 "J4" H 9205 4892 50  0000 L CNN
+F 1 "Conn_01x04" H 9205 4801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 9125 4900 50  0001 C CNN
+F 3 "~" H 9125 4900 50  0001 C CNN
+	1    9125 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4900 8775 4900
+Wire Wire Line
+	7375 5000 8875 5000
+Wire Wire Line
+	8775 5500 8775 4900
+Connection ~ 8775 4900
+Wire Wire Line
+	8775 4900 8925 4900
+Wire Wire Line
+	8875 5500 8875 5000
+Connection ~ 8875 5000
+Wire Wire Line
+	8875 5000 8925 5000
 $EndSCHEMATC
