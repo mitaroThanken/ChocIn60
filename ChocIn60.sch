@@ -49,8 +49,6 @@ F 3 "~" H 1450 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 2050 1250 2050
-Wire Wire Line
-	1650 2050 1675 2050
 Text GLabel 2750 1850 2    50   Input ~ 0
 ~RESET
 Wire Wire Line
@@ -1258,17 +1256,6 @@ Wire Wire Line
 Wire Wire Line
 	8875 2625 9000 2625
 Connection ~ 8500 2125
-$Comp
-L ChocIn60:FFC_FPC_Connectors_29POS J3
-U 1 1 5D2EE13C
-P 7575 5700
-F 0 "J3" V 7700 5646 50  0000 C CNN
-F 1 "FFC_FPC_Connectors_29POS" V 7791 5646 50  0000 C CNN
-F 2 "ChocIn60:TE_1-2013496-0" H 7575 5700 50  0001 C CNN
-F 3 "" H 7575 5700 50  0001 C CNN
-	1    7575 5700
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	9175 5250 9175 5375
 Wire Wire Line
@@ -1276,8 +1263,6 @@ Wire Wire Line
 Wire Wire Line
 	8975 5375 9175 5375
 Connection ~ 9175 5375
-Wire Wire Line
-	9175 5375 9175 5825
 NoConn ~ 9075 5500
 Wire Wire Line
 	1250 1850 1250 2050
@@ -1286,5 +1271,18 @@ Wire Wire Line
 	1650 1850 1650 2050
 Connection ~ 1650 2050
 Wire Wire Line
-	1675 2050 2600 2050
+	1650 2050 2600 2050
+$Comp
+L Connector_Generic:Conn_01x30 J3
+U 1 1 5D3610D2
+P 7575 5700
+F 0 "J3" V 7700 5646 50  0000 C CNN
+F 1 "Conn_01x30" V 7791 5646 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical" H 7575 5700 50  0001 C CNN
+F 3 "~" H 7575 5700 50  0001 C CNN
+	1    7575 5700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9175 5375 9175 5825
 $EndSCHEMATC
