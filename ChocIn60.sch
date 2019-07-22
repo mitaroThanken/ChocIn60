@@ -45,7 +45,7 @@ F 1 "SW_Push" H 1450 2044 50  0000 C CNN
 F 2 "Orbit_locallib:SKQGADE010" H 1450 2050 50  0001 C CNN
 F 3 "~" H 1450 2050 50  0001 C CNN
 	1    1450 1850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1000 2050 1250 2050
@@ -97,7 +97,7 @@ F 1 "22pF" V 2025 2450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1938 2300 50  0001 C CNN
 F 3 "~" H 1900 2450 50  0001 C CNN
 	1    1900 2450
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L power:GND #PWR05
@@ -529,18 +529,7 @@ F 1 "4.7k" H 7445 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7305 4650 50  0001 C CNN
 F 3 "~" H 7375 4650 50  0001 C CNN
 	1    7375 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5D435D2E
-P 7000 4650
-F 0 "R6" H 7070 4696 50  0000 L CNN
-F 1 "4.7k" H 7070 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 4650 50  0001 C CNN
-F 3 "~" H 7000 4650 50  0001 C CNN
-	1    7000 4650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	7000 4800 7000 4900
@@ -1023,13 +1012,13 @@ for 44
 $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 5D4A2D9A
-P 8050 4900
-F 0 "J4" H 8130 4892 50  0000 L CNN
-F 1 "Conn_01x04" H 8130 4801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8050 4900 50  0001 C CNN
-F 3 "~" H 8050 4900 50  0001 C CNN
-	1    8050 4900
-	1    0    0    -1  
+P 8050 5000
+F 0 "J4" H 8130 4992 50  0000 L CNN
+F 1 "Conn_01x04" H 8130 4901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8050 5000 50  0001 C CNN
+F 3 "~" H 8050 5000 50  0001 C CNN
+	1    8050 5000
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	7000 4500 7000 4425
@@ -1272,10 +1261,10 @@ Connection ~ 2425 4700
 Wire Wire Line
 	2425 4700 2675 4700
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0101
 U 1 1 5D406FCB
 P 2000 4600
-F 0 "#PWR?" H 2000 4450 50  0001 C CNN
+F 0 "#PWR0101" H 2000 4450 50  0001 C CNN
 F 1 "+5V" H 2015 4773 50  0000 C CNN
 F 2 "" H 2000 4600 50  0001 C CNN
 F 3 "" H 2000 4600 50  0001 C CNN
@@ -1293,4 +1282,17 @@ Wire Wire Line
 Connection ~ 2425 5050
 Wire Wire Line
 	2425 5050 2675 5050
+Text Label 2775 3350 0    50   ~ 0
+UCAP
+$Comp
+L Device:R R6
+U 1 1 5D435D2E
+P 7000 4650
+F 0 "R6" H 7070 4696 50  0000 L CNN
+F 1 "4.7k" H 7070 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 4650 50  0001 C CNN
+F 3 "~" H 7000 4650 50  0001 C CNN
+	1    7000 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
