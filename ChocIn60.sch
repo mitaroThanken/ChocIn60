@@ -532,8 +532,6 @@ Wire Wire Line
 Connection ~ 7000 4425
 Wire Wire Line
 	7000 4425 7375 4425
-Wire Wire Line
-	7750 5100 7850 5100
 Wire Notes Line
 	6000 4125 9250 4125
 Wire Notes Line
@@ -926,7 +924,7 @@ F 1 "0.1uF" H 2540 4855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2463 4750 50  0001 C CNN
 F 3 "~" H 2425 4900 50  0001 C CNN
 	1    2425 4900
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C5
@@ -1000,12 +998,12 @@ for 44
 $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 5D4A2D9A
-P 8050 5000
-F 0 "J4" H 8130 4992 50  0000 L CNN
-F 1 "Conn_01x04" H 8130 4901 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8050 5000 50  0001 C CNN
-F 3 "~" H 8050 5000 50  0001 C CNN
-	1    8050 5000
+P 8700 4625
+F 0 "J4" H 8780 4617 50  0000 L CNN
+F 1 "Conn_01x04" H 8780 4526 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8700 4625 50  0001 C CNN
+F 3 "~" H 8700 4625 50  0001 C CNN
+	1    8700 4625
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -1016,28 +1014,12 @@ Wire Wire Line
 	7375 4800 7375 5000
 Connection ~ 7000 4900
 Connection ~ 7375 5000
-Wire Wire Line
-	7375 4425 7750 4425
-Wire Wire Line
-	7750 4425 7750 4800
-Wire Wire Line
-	7750 4800 7850 4800
 Connection ~ 7375 4425
 Wire Wire Line
 	6875 4425 6175 4425
 Connection ~ 6875 4425
 Wire Wire Line
 	6175 4425 6175 5425
-Connection ~ 7575 5000
-Wire Wire Line
-	7575 5000 7850 5000
-Wire Wire Line
-	7375 5000 7575 5000
-Connection ~ 7475 4900
-Wire Wire Line
-	7475 4900 7850 4900
-Wire Wire Line
-	7000 4900 7475 4900
 Wire Wire Line
 	9075 5825 9075 5875
 Wire Wire Line
@@ -1055,60 +1037,52 @@ F 3 "" H 9075 5875 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	6000 6250 6000 4125
-Text GLabel 7075 5500 1    50   Input ~ 0
-PB6
 Text GLabel 7375 5500 1    50   Input ~ 0
+PB6
+Text GLabel 7175 5500 1    50   Input ~ 0
 PC7
 Text GLabel 7275 5500 1    50   Input ~ 0
 PC6
-Text GLabel 6675 5500 1    50   Input ~ 0
+Text GLabel 8775 5500 1    50   Input ~ 0
 PB2_MOSI
-Text GLabel 7675 5500 1    50   Input ~ 0
+Text GLabel 8175 5500 1    50   Input ~ 0
 PD2
-Text GLabel 7775 5500 1    50   Input ~ 0
+Text GLabel 8075 5500 1    50   Input ~ 0
 PD3
 Text GLabel 7875 5500 1    50   Input ~ 0
 PD4
 Text GLabel 7975 5500 1    50   Input ~ 0
 PD5
-Text GLabel 8075 5500 1    50   Input ~ 0
+Text GLabel 7775 5500 1    50   Input ~ 0
 PD6
-Text GLabel 8175 5500 1    50   Input ~ 0
+Text GLabel 7675 5500 1    50   Input ~ 0
 PD7
-Text GLabel 8275 5500 1    50   Input ~ 0
-PE6
-Text GLabel 8375 5500 1    50   Input ~ 0
-PF0
-Text GLabel 8475 5500 1    50   Input ~ 0
-PF1
-Text GLabel 8575 5500 1    50   Input ~ 0
-PF4
-Text GLabel 8675 5500 1    50   Input ~ 0
-PF5
-Text GLabel 8775 5500 1    50   Input ~ 0
-PF6
-Text GLabel 8875 5500 1    50   Input ~ 0
-PF7
-Text GLabel 7175 5500 1    50   Input ~ 0
-PB7
-Text GLabel 6975 5500 1    50   Input ~ 0
-PB5
-Text GLabel 6875 5500 1    50   Input ~ 0
-PB4
-Text GLabel 6775 5500 1    50   Input ~ 0
-PB3_MISO
-Text GLabel 6575 5500 1    50   Input ~ 0
-PB1_SCK
 Text GLabel 6475 5500 1    50   Input ~ 0
+PE6
+Text GLabel 6575 5500 1    50   Input ~ 0
+PF0
+Text GLabel 6675 5500 1    50   Input ~ 0
+PF1
+Text GLabel 6775 5500 1    50   Input ~ 0
+PF4
+Text GLabel 6875 5500 1    50   Input ~ 0
+PF5
+Text GLabel 6975 5500 1    50   Input ~ 0
+PF6
+Text GLabel 7075 5500 1    50   Input ~ 0
+PF7
+Text GLabel 8475 5500 1    50   Input ~ 0
+PB7
+Text GLabel 7475 5500 1    50   Input ~ 0
+PB5
+Text GLabel 7575 5500 1    50   Input ~ 0
+PB4
+Text GLabel 8875 5500 1    50   Input ~ 0
+PB3_MISO
+Text GLabel 8675 5500 1    50   Input ~ 0
+PB1_SCK
+Text GLabel 8575 5500 1    50   Input ~ 0
 PB0
-Wire Wire Line
-	7750 5250 9175 5250
-Wire Wire Line
-	7750 5100 7750 5250
-Wire Wire Line
-	7475 5500 7475 4900
-Wire Wire Line
-	7575 5500 7575 5000
 Wire Wire Line
 	6175 5425 6275 5425
 Wire Wire Line
@@ -1171,8 +1145,6 @@ Wire Wire Line
 	9625 2625 9700 2625
 Connection ~ 9375 2125
 Wire Wire Line
-	9175 5250 9175 5375
-Wire Wire Line
 	8975 5500 8975 5375
 Wire Wire Line
 	8975 5375 9175 5375
@@ -1199,9 +1171,9 @@ F 3 "~" H 7575 5700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9175 5375 9175 5825
-Text Label 7450 1800 0    50   ~ 0
+Text Label 7425 2000 0    50   ~ 0
 D_P
-Text Label 7200 1900 0    50   ~ 0
+Text Label 7425 1900 0    50   ~ 0
 D_N
 Wire Wire Line
 	1300 4700 1550 4700
@@ -1259,7 +1231,7 @@ U 1 1 5D39F530
 P 7075 1850
 F 0 "USB1" H 6908 2647 60  0000 C CNN
 F 1 "HRO-TYPE-C-31-M-12" H 6908 2541 60  0000 C CNN
-F 2 "Orbit_Type-C:HRO-TYPE-C-31-M-12-Assembly" H 7075 1850 60  0001 C CNN
+F 2 "Orbit_Type-C:HRO-TYPE-C-31-M-12" H 7075 1850 60  0001 C CNN
 F 3 "" H 7075 1850 60  0001 C CNN
 	1    7075 1850
 	1    0    0    -1  
@@ -1299,8 +1271,6 @@ NoConn ~ 7175 1500
 NoConn ~ 7175 2100
 Wire Wire Line
 	8000 3500 8625 3500
-Wire Wire Line
-	9375 1400 9375 1900
 $Comp
 L Device:R R3
 U 1 1 5D4A6626
@@ -1310,18 +1280,7 @@ F 1 "5.1k" H 7570 2555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 2600 50  0001 C CNN
 F 3 "~" H 7500 2600 50  0001 C CNN
 	1    7500 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5D4A6808
-P 7750 2900
-F 0 "R4" H 7820 2946 50  0000 L CNN
-F 1 "5.1k" H 7820 2855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7680 2900 50  0001 C CNN
-F 3 "~" H 7750 2900 50  0001 C CNN
-	1    7750 2900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	7175 2200 7500 2200
@@ -1344,13 +1303,7 @@ Connection ~ 7750 3500
 Wire Wire Line
 	7750 3500 8000 3500
 Wire Wire Line
-	9375 1900 9375 2125
-Wire Wire Line
-	7375 1900 7625 1900
-Wire Wire Line
 	7625 1800 7625 1900
-Wire Wire Line
-	7625 1900 9125 1900
 Wire Wire Line
 	9125 1900 9125 2625
 Connection ~ 9125 1900
@@ -1414,10 +1367,53 @@ F 3 "~" H 6375 7250 50  0001 C CNN
 	1    6375 7250
 	1    0    0    -1  
 $EndComp
-Connection ~ 7625 1900
 Wire Wire Line
 	7625 1900 7625 2000
-Connection ~ 9375 1900
 Wire Wire Line
 	9375 1900 10100 1900
+Wire Wire Line
+	9375 1400 9375 2125
+Wire Wire Line
+	7375 1900 9125 1900
+$Comp
+L Device:R R4
+U 1 1 5D4A6808
+P 7750 2900
+F 0 "R4" H 7820 2946 50  0000 L CNN
+F 1 "5.1k" H 7820 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7680 2900 50  0001 C CNN
+F 3 "~" H 7750 2900 50  0001 C CNN
+	1    7750 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4900 7750 4900
+Wire Wire Line
+	7375 4425 8500 4425
+Wire Wire Line
+	7750 4525 7750 4900
+Wire Wire Line
+	7875 5000 7875 4625
+Wire Wire Line
+	7375 5000 7875 5000
+Wire Wire Line
+	7875 4625 8275 4625
+Wire Wire Line
+	8500 4525 8375 4525
+Wire Wire Line
+	8275 5500 8275 4625
+Connection ~ 8275 4625
+Wire Wire Line
+	8275 4625 8500 4625
+Wire Wire Line
+	8375 5500 8375 4525
+Connection ~ 8375 4525
+Wire Wire Line
+	8375 4525 7750 4525
+Wire Wire Line
+	8500 4725 8500 5000
+Wire Wire Line
+	8500 5000 9175 5000
+Wire Wire Line
+	9175 5000 9175 5375
 $EndSCHEMATC

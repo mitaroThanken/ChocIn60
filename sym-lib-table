@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ChocIn60)(type Legacy)(uri C:/Users/mitar/source/repos/ChocIn60/Lib/ChocIn60.lib)(options "")(descr ""))
+  (lib (name Orbit_Type-C)(type Legacy)(uri ${KIPRJMOD}/Lib/Orbit/Orbit-PCB/Type-C.pretty/Type-C.lib)(options "")(descr ""))
 )
