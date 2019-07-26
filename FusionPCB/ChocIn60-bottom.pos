@@ -1,0 +1,24 @@
+### Module positions - created on 2019/07/26 12:37:22 ###
+### Printed by Pcbnew version kicad (5.1.0)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val            Package                                              PosX       PosY       Rot  Side
+C1        22pF           C_0603_1608Metric_Pad1.05x0.95mm_HandSolder      -58.7425    36.2600  270.0000  bottom
+C2        22pF           C_0603_1608Metric_Pad1.05x0.95mm_HandSolder      -58.7425    40.0700  270.0000  bottom
+C3        1uF            C_0603_1608Metric_Pad1.05x0.95mm_HandSolder      -48.1380    50.3570   90.0000  bottom
+C4        0.1uF          C_0603_1608Metric_Pad1.05x0.95mm_HandSolder      -58.9330    44.8960  180.0000  bottom
+C5        0.1uF          C_0603_1608Metric_Pad1.05x0.95mm_HandSolder      -39.3750    32.0690   90.0000  bottom
+C6        0.1uF          C_0603_1608Metric_Pad1.05x0.95mm_HandSolder      -52.0750    25.4650    0.0000  bottom
+C7        10uF           C_0603_1608Metric_Pad1.05x0.95mm_HandSolder      -39.3750    41.8480   90.0000  bottom
+D1        Schottky       D_SOD-123                                         -9.5300    31.1800   90.0000  bottom
+F1        500mA          Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder    -9.5300    39.0651   90.0000  bottom
+R1        22             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder      -26.7450    52.0715  180.0000  bottom
+R2        22             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder      -26.7450    49.3076  180.0000  bottom
+R3        5.1k           R_0805_2012Metric_Pad1.15x1.40mm_HandSolder      -26.6750    55.9450  180.0000  bottom
+R4        5.1k           R_0805_2012Metric_Pad1.15x1.40mm_HandSolder      -10.0290    55.3100  180.0000  bottom
+R5        10k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder      -42.2960    25.4650    0.0000  bottom
+R6        4.7k           R_0805_2012Metric_Pad1.15x1.40mm_HandSolder      -71.9430    51.5000    0.0000  bottom
+R7        4.7k           R_0805_2012Metric_Pad1.15x1.40mm_HandSolder      -76.5060    51.5000    0.0000  bottom
+U1        ATmega32U4-AU  TQFP-44_10x10mm_P0.8mm                           -48.1126    37.0220  270.0000  bottom
+Y1        16MHz          Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering    -62.5525    37.5300   90.0000  bottom
+## End
