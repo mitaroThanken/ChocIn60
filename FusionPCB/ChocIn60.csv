@@ -1,0 +1,16 @@
+Reference,MPN, Quantity,Link, Value
+C1 C2 ,302010143,2,https://statics3.seeedstudio.com/images/opl/datasheet/0100620P1.pdf,22pF
+C3 ,302010139,1,https://statics3.seeedstudio.com/images/opl/datasheet/0100340P1.pdf,1uF
+C6 C5 C4 ,302010138,3,https://statics3.seeedstudio.com/images/opl/datasheet/0100020P1.pdf,0.1uF
+C7 ,302010103,1,https://statics3.seeedstudio.com/images/opl/datasheet/302010103.pdf,10uF
+D1 ,304020028,1,https://statics3.seeedstudio.com/images/opl/datasheet/304020028.pdf,Schottky
+D2 ,304050022,1,https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf,PRTR5V0U2X
+F1 ,307010014,1,https://statics3.seeedstudio.com/images/opl/datasheet/307010014.pdf,500mA
+R2 R1 ,RC0805FR-0722RL,2,http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RC0805%20Pb%20Free.pdf,22
+R3 R4 ,RC0805FR-0751KL,2,http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RC0805%20Pb%20Free.pdf,5.1k
+R5 ,RC0805FR-0710KL  ,1,http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RC0805%20Pb%20Free.pdf,10k
+R7 R6 ,RC0805FR-074K7L,2,http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RC0805%20Pb%20Free.pdf,4.7k
+SW1 ,311020017,1,https://statics3.seeedstudio.com/images/opl/datasheet/311020017.pdf,SW_Push
+U1 ,310010010,1,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf,ATmega32U4-AU
+USB1 ,TYPE-C-31-M-12,1,https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html,HRO-TYPE-C-31-M-12
+Y1 ,306010049,1,https://statics3.seeedstudio.com/images/opl/datasheet/306010049.pdf,16MHz
