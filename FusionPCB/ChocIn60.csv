@@ -7,7 +7,7 @@ D1 ,304020028,1,https://statics3.seeedstudio.com/images/opl/datasheet/304020028.
 D2 ,304050022,1,https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf,PRTR5V0U2X
 F1 ,307010014,1,https://statics3.seeedstudio.com/images/opl/datasheet/307010014.pdf,500mA
 R2 R1 ,RC0805FR-0722RL,2,http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RC0805%20Pb%20Free.pdf,22
-R3 R4 ,RC0805FR-0751KL,2,http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RC0805%20Pb%20Free.pdf,5.1k
+R3 R4 ,RC0805FR-075K1L,2,http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RC0805%20Pb%20Free.pdf,5.1k
 R5 ,RC0805FR-0710KL  ,1,http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RC0805%20Pb%20Free.pdf,10k
 R7 R6 ,RC0805FR-074K7L,2,http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RC0805%20Pb%20Free.pdf,4.7k
 SW1 ,311020017,1,https://statics3.seeedstudio.com/images/opl/datasheet/311020017.pdf,SW_Push
